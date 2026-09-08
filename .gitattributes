@@ -1,0 +1,13 @@
+# STEP is a text format, which is exactly the problem: on a checkout with
+# core.autocrlf=true git would rewrite every line ending and change the bytes
+# of files this project compares and measures. Never convert them.
+*.step  -text
+*.STEP  -text
+
+# FCStd is a zip archive; PNG is a bitmap. Neither is diffable and neither
+# survives line-ending conversion.
+*.FCStd binary
+*.png   binary
+
+# Tab-separated: the tab IS the delimiter. No whitespace fixing.
+*.tsv   -text

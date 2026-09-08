@@ -1,0 +1,9 @@
+# Derived scalars in the KSU FRAME, which is NOT D1's export frame.
+# ksu puts the board top at Z=0 and the stem top at 15.443; D1's export put
+# the board bottom at Z=0 and the stem top at 17.038. Do not convert between
+# them -- re-measure with measure_ksu.py.
+#
+# key	value	how_derived
+seat_dz	10.743	stem top 15.443 (uniform ZMax of every Cherry switch object in the ksu-imported document) minus the DSA 1u socket ceiling 4.700, measured by measure_ksu.py seat on the cap AFTER cap_shape() normalises it from its authored Y-up frame to Z-up
+env_height	22.7430	highest seated cap top 18.7430 (the spacebar, not the 1u cap that measure_ksu.py seat reports at 18.6519 -- both are optimalBoundingBox readings of DIFFERENT caps: measure_ksu.py seat measures only the 1u. BoundBox over-reporting non-uniformly -- 0.31 mm on the sculpted 1u dish vs 0.0005 mm on the flat spacebar -- is why the two caps RANK differently under the two calls, which is a separate fact from this pair of numbers) plus 4.0 mm clearance so the well accepts a sculpted Cherry/OEM cap as well as the vendored DSA set; Cyrillic legends are sold only in sculpted profiles, so the case must fit the taller one
+max_component_z	0.313	tallest real component whose XY footprint overlaps a key footprint, measured with optimalBoundingBox in the ksu-imported GUI document; it is the PCB itself (PCB_Sketch 0.313, Pcb 0.016). Scoped to the keyboard field on purpose: the tallest non-switch component overall is J4 (SDF-80J) at 21.472, which lies outside the field, and check H compares against the envelope floor with no XY awareness, so a global figure would fail a correct build. Container objects (Top, Step_Models, Radio-86RK) and switch-owned parts (SW*_Stabilizer, 15.454) are excluded -- the first are assembly groups spanning the whole board, the second are part of the keyswitch

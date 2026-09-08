@@ -1,0 +1,18 @@
+# Radio-86RK keycaps: one row per switch footprint suffix.
+# Swapping profile = changing the model_file column and re-deriving seat_dz.
+# stab_spacing_mm is informational: it records what the board's footprint
+# expects, verified against the MX standard (23.8 / 100 mm).
+#
+# scale_x corrects an upstream model whose width is wrong. Vendored files are
+# verbatim and are never edited; corrections live here. All five are within
+# tolerance of nominal and take 1.0 -- the 6.25u spacebar's earlier 0.918955
+# was never needed. Shape.BoundBox over-reports a NURBS solid (it bounds the
+# control polygon, not the surface) and read the spacebar as 128.842 mm wide;
+# optimalBoundingBox() gives the true 117.950, already within tolerance.
+#
+# suffix	units	model_file	stab_spacing_mm	scale_x
+100H	1.00	vendor/dsa/DSA 1u.step	none	1.000000
+125H	1.25	vendor/dsa/DSA 1.25u.step	none	1.000000
+150H	1.50	vendor/dsa/DSA 1.5u.step	none	1.000000
+225H	2.25	vendor/dsa/DSA 2.25u.step	23.876	1.000000
+625H	6.25	vendor/dsa/DSA Spacebar 6.25u.step	100.076	1.000000

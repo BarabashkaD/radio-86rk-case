@@ -1,0 +1,2174 @@
+# captured 1788818898.445
+23:21:28  (qt.qpa.fonts) Populating font family aliases took 43 ms. Replace uses of missing font family "Nimbus Sans L" with one that exists to avoid this cost. 
+23:21:28  KiCadStepUpWB.Activated(v 11.09.6)
+23:21:28  PoM not present
+23:21:28  using 'Part' container and 'Links'
+23:21:28  FC Version 11-1
+23:21:28  kicad StepUp version 13.1.7
+23:21:28  tolerance on vertex applied
+23:21:28  applying Materials to Shapes
+23:21:28  your home path is /Users/dveremeev
+23:21:28  kicad StepUp version 13.1.7
+23:21:28  tolerance on vertex applied
+23:21:28  light direction: (-0.3,0.3,-1.0)
+23:21:28  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio-86RK.kicad_pcb
+23:21:28  my file path /Users/dveremeev/projects/radio-86rk/KiCad
+23:21:28  opening Transaction 'opening_kicad'
+23:21:28  grid origin not set
+using default top left corner
+23:21:28  PCB Loader 
+23:21:28  pcb thickness 1.6mm
+23:21:28  kicad_pcb version 20260206
+23:21:28  parsing
+23:21:28  8 edge segments
+23:21:28  aux_axis_origin[6.275, 6.275]
+23:21:28  parsing&building time 0.058
+23:21:28  start adding constraints to pcb sketch
+23:21:28  using constrainator
+23:21:28  check to sanitize
+23:21:28  adding constraints time 0.003
+23:21:28  created PCB face w/ edge tolerance -> 0.01 mm
+23:21:28  running time: 2.311sec
+23:21:28  start cutting
+23:21:28  using hierarchy container
+23:21:28  generating flat holes
+23:21:28  cutting time 2.109
+23:21:28  pcb dimensions: (266.70;203.20;1.60)
+23:21:28  running time: 6.704sec
+23:21:28  FC Version 11-1
+23:21:28  creating hierarchy
+23:21:28  closing Transaction 'opening_kicad'
+23:21:28  placing board @ 0,0
+23:21:28  building up pcb time 6.709
+23:21:28  running time: 7.009sec
+23:21:28  VBO status False
+23:21:28  ReadShapeCompoundMode status False
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  renaming not in Origin object
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 1 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 2 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 3 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 4 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 5 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 6 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 7 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 8 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 9 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 10 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 11 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 12 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 13 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 14 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 15 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 16 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 17 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 18 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 19 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 20 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 21 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 22 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 23 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 24 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 25 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 26 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 27 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:28  model name CP_Radial_D6.3mm_P2.50mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:28  CP_Radial_D6.3mm_P2.50mm
+23:21:28  renaming not in Origin object
+23:21:28  module Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.stpZ
+23:21:28  added 28 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:28  model name CP_Radial_D6.3mm_P2.50mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:28  CP_Radial_D6.3mm_P2.50mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.stpZ
+23:21:28  added 29 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:28  model name CP_Radial_D6.3mm_P2.50mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:28  CP_Radial_D6.3mm_P2.50mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.stpZ
+23:21:28  added 30 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 31 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:28  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:28  copying from cache
+23:21:28  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:28  added 32 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced LED_THT.3dshapes/LED_D3.0mm.step
+23:21:28  model name LED_D3.0mm
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step
+23:21:28  LED_D3.0mm
+23:21:28  renaming not in Origin object
+23:21:28  module LED_THT.3dshapes/LED_D3.0mm.stpZ
+23:21:28  added 33 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical.step
+23:21:28  model name IDC-Header_2x13_P2.54mm_Vertical
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical.step
+23:21:28  IDC-Header_2x13_P2.54mm_Vertical
+23:21:28  renaming not in Origin object
+23:21:28  module Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical.stpZ
+23:21:28  added 34 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  renaming not in Origin object
+23:21:28  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:28  added 35 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  copying from cache
+23:21:28  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:28  added 36 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  copying from cache
+23:21:28  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:28  added 37 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  copying from cache
+23:21:28  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:28  added 38 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  copying from cache
+23:21:28  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:28  added 39 model(s)
+23:21:28  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:28  adjusting 2nd Local Path
+23:21:28  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:28  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:28  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:28  copying from cache
+23:21:28  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:30  added 40 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:30  added 41 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:30  added 42 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP10.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Resistor_THT.3dshapes/R_Array_SIP10.step
+23:21:30  model name R_Array_SIP10
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Array_SIP10.step
+23:21:30  R_Array_SIP10
+23:21:30  renaming not in Origin object
+23:21:30  module Resistor_THT.3dshapes/R_Array_SIP10.stpZ
+23:21:30  added 43 model(s)
+23:21:30  "${KIPRJMOD}/Radio86RK.3dshapes/B3F-3152.step"
+23:21:30  adjusting Relative Path
+23:21:30  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/B3F-3152.step
+23:21:30  model name B3F-3152
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/B3F-3152.step
+23:21:30  B3F-3152
+23:21:30  B3F_3152
+23:21:30  multi Part found! ...
+23:21:30  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/B3F-3152.stpZ
+23:21:30  added 44 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step
+23:21:30  model name DIP-16_W7.62mm_Socket
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step
+23:21:30  DIP-16_W7.62mm_Socket
+23:21:30  renaming not in Origin object
+23:21:30  module Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.stpZ
+23:21:30  added 45 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_DIP.3dshapes/DIP-16_W7.62mm.step
+23:21:30  model name DIP-16_W7.62mm
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-16_W7.62mm.step
+23:21:30  DIP-16_W7.62mm
+23:21:30  renaming not in Origin object
+23:21:30  module Package_DIP.3dshapes/DIP-16_W7.62mm.stpZ
+23:21:30  added 46 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:30  model name DIP-14_W7.62mm_Socket
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:30  DIP-14_W7.62mm_Socket
+23:21:30  renaming not in Origin object
+23:21:30  module Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.stpZ
+23:21:30  added 47 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:30  model name DIP-14_W7.62mm
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:30  DIP-14_W7.62mm
+23:21:30  renaming not in Origin object
+23:21:30  module Package_DIP.3dshapes/DIP-14_W7.62mm.stpZ
+23:21:30  added 48 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step
+23:21:30  model name DIP-16_W7.62mm_Socket
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step
+23:21:30  DIP-16_W7.62mm_Socket
+23:21:30  copying from cache
+23:21:30  module Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.stpZ
+23:21:30  added 49 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_DIP.3dshapes/DIP-16_W7.62mm.step
+23:21:30  model name DIP-16_W7.62mm
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-16_W7.62mm.step
+23:21:30  DIP-16_W7.62mm
+23:21:30  copying from cache
+23:21:30  module Package_DIP.3dshapes/DIP-16_W7.62mm.stpZ
+23:21:30  added 50 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step
+23:21:30  model name TO-220-3_Vertical
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.step
+23:21:30  TO-220-3_Vertical
+23:21:30  renaming not in Origin object
+23:21:30  module Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.stpZ
+23:21:30  added 51 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  SW_Cherry_MX_PCB_cp007
+23:21:30  multi Part found! ...
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 52 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 53 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp
+23:21:30  model name Stabilizer_Cherry_MX_2.00u
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp
+23:21:30  Stabilizer_Cherry_MX_2.00u
+23:21:30  Stabilizer_Cherry_MX_2u_cp005
+23:21:30  multi Part found! ...
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stpZ
+23:21:30  added 54 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 55 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 56 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 57 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:30  added 58 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 59 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 60 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 61 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 62 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 63 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:30  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:30  added 64 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 65 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 66 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 67 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  D_DO-35_SOD27_P7.62mm_Horizontal002
+23:21:30  multi Part found! ...
+23:21:30  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:30  added 68 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:30  added 69 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 70 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 71 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 72 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:30  added 73 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 74 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 75 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_6.25u.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_6.25u.stp
+23:21:30  model name Stabilizer_Cherry_MX_6.25u
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_6.25u.stp
+23:21:30  Stabilizer_Cherry_MX_6.25u
+23:21:30  Stabilizer_Cherry_MX_6_25u_cp005
+23:21:30  multi Part found! ...
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_6.25u.stpZ
+23:21:30  added 76 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 77 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 78 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 79 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 80 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 81 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 82 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 83 model(s)
+23:21:30  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:30  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:30  copying from cache
+23:21:30  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:30  added 84 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 85 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 86 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 87 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 88 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 89 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 90 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 91 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 92 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 93 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 94 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 95 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 96 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 97 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  SW_Cherry_MX_PCB
+23:21:30  copying from cache
+23:21:30  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:30  added 98 model(s)
+23:21:30  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:30  adjusting 2nd Local Path
+23:21:30  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:30  model name SW_Cherry_MX_PCB
+23:21:30  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:30  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 99 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 100 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 101 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 102 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 103 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 104 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 105 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 106 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 107 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 108 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 109 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 110 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 111 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 112 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 113 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 114 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 115 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 116 model(s)
+23:21:31  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:31  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:31  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:31  copying from cache
+23:21:31  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:31  added 117 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:31  added 118 model(s)
+23:21:31  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:31  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:31  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:31  copying from cache
+23:21:31  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:31  added 119 model(s)
+23:21:31  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:31  adjusting 2nd Local Path
+23:21:31  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  model name SW_Cherry_MX_PCB
+23:21:31  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:31  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:31  SW_Cherry_MX_PCB
+23:21:31  copying from cache
+23:21:31  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:32  added 120 model(s)
+23:21:32  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:32  model name SW_Cherry_MX_PCB
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:32  SW_Cherry_MX_PCB
+23:21:32  copying from cache
+23:21:32  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:32  added 121 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:32  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:32  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:32  copying from cache
+23:21:32  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:32  added 122 model(s)
+23:21:32  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:32  model name SW_Cherry_MX_PCB
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:32  SW_Cherry_MX_PCB
+23:21:32  copying from cache
+23:21:32  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:32  added 123 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.step
+23:21:32  model name DIP-24_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.step
+23:21:32  DIP-24_W15.24mm_Socket
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.stpZ
+23:21:32  added 124 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-24_W15.24mm.step
+23:21:32  model name DIP-24_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-24_W15.24mm.step
+23:21:32  DIP-24_W15.24mm
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-24_W15.24mm.stpZ
+23:21:32  added 125 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:32  model name DIP-28_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:32  DIP-28_W15.24mm_Socket
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.stpZ
+23:21:32  added 126 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:32  model name DIP-28_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:32  DIP-28_W15.24mm
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-28_W15.24mm.stpZ
+23:21:32  added 127 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  model name DIP-40_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  DIP-40_W15.24mm_Socket
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.stpZ
+23:21:32  added 128 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  model name DIP-40_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  DIP-40_W15.24mm
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm.stpZ
+23:21:32  added 129 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.step
+23:21:32  model name DIP-24_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.step
+23:21:32  DIP-24_W15.24mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-24_W15.24mm_Socket.stpZ
+23:21:32  added 130 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-24_W15.24mm.step
+23:21:32  model name DIP-24_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-24_W15.24mm.step
+23:21:32  DIP-24_W15.24mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-24_W15.24mm.stpZ
+23:21:32  added 131 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:32  model name DIP-28_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:32  DIP-28_W15.24mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.stpZ
+23:21:32  added 132 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:32  model name DIP-28_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:32  DIP-28_W15.24mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-28_W15.24mm.stpZ
+23:21:32  added 133 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  model name DIP-40_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  DIP-40_W15.24mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.stpZ
+23:21:32  added 134 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  model name DIP-40_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  DIP-40_W15.24mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm.stpZ
+23:21:32  added 135 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:32  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:32  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:32  copying from cache
+23:21:32  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:32  added 136 model(s)
+23:21:32  "${KIPRJMOD}/Radio86RK.3dshapes/RCJ-014.step"
+23:21:32  adjusting Relative Path
+23:21:32  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/RCJ-014.step
+23:21:32  model name RCJ-014
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/RCJ-014.step
+23:21:32  RCJ-014
+23:21:32  renaming not in Origin object
+23:21:32  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/RCJ-014.stpZ
+23:21:32  added 137 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  model name DIP-40_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  DIP-40_W15.24mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.stpZ
+23:21:32  added 138 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  model name DIP-40_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  DIP-40_W15.24mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm.stpZ
+23:21:32  added 139 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  model name DIP-40_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  DIP-40_W15.24mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.stpZ
+23:21:32  added 140 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  model name DIP-40_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  DIP-40_W15.24mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm.stpZ
+23:21:32  added 141 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:32  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:32  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:32  copying from cache
+23:21:32  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:32  added 142 model(s)
+23:21:32  "${KIPRJMOD}/Radio86RK.3dshapes/SDF-80J.step"
+23:21:32  adjusting Relative Path
+23:21:32  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/SDF-80J.step
+23:21:32  model name SDF-80J
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/SDF-80J.step
+23:21:32  SDF-80J
+23:21:32  same sky SDF-80J010
+23:21:32  multi Part found! ...
+23:21:32  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/SDF-80J.stpZ
+23:21:32  added 143 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:32  model name D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+23:21:32  D_DO-35_SOD27_P7.62mm_Horizontal
+23:21:32  copying from cache
+23:21:32  module Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.stpZ
+23:21:32  added 144 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP6.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Resistor_THT.3dshapes/R_Array_SIP6.step
+23:21:32  model name R_Array_SIP6
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Array_SIP6.step
+23:21:32  R_Array_SIP6
+23:21:32  renaming not in Origin object
+23:21:32  module Resistor_THT.3dshapes/R_Array_SIP6.stpZ
+23:21:32  added 145 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP6.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Resistor_THT.3dshapes/R_Array_SIP6.step
+23:21:32  model name R_Array_SIP6
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Array_SIP6.step
+23:21:32  R_Array_SIP6
+23:21:32  copying from cache
+23:21:32  module Resistor_THT.3dshapes/R_Array_SIP6.stpZ
+23:21:32  added 146 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP6.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Resistor_THT.3dshapes/R_Array_SIP6.step
+23:21:32  model name R_Array_SIP6
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Array_SIP6.step
+23:21:32  R_Array_SIP6
+23:21:32  copying from cache
+23:21:32  module Resistor_THT.3dshapes/R_Array_SIP6.stpZ
+23:21:32  added 147 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced LED_THT.3dshapes/LED_D3.0mm.step
+23:21:32  model name LED_D3.0mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_THT.3dshapes/LED_D3.0mm.step
+23:21:32  LED_D3.0mm
+23:21:32  copying from cache
+23:21:32  module LED_THT.3dshapes/LED_D3.0mm.stpZ
+23:21:32  added 148 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:32  model name DIP-14_W7.62mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:32  DIP-14_W7.62mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.stpZ
+23:21:32  added 149 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:32  model name DIP-14_W7.62mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:32  DIP-14_W7.62mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-14_W7.62mm.stpZ
+23:21:32  added 150 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  model name DIP-40_W15.24mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.step
+23:21:32  DIP-40_W15.24mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm_Socket.stpZ
+23:21:32  added 151 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-40_W15.24mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  model name DIP-40_W15.24mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-40_W15.24mm.step
+23:21:32  DIP-40_W15.24mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-40_W15.24mm.stpZ
+23:21:32  added 152 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-20_W7.62mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-20_W7.62mm_Socket.step
+23:21:32  model name DIP-20_W7.62mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-20_W7.62mm_Socket.step
+23:21:32  DIP-20_W7.62mm_Socket
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-20_W7.62mm_Socket.stpZ
+23:21:32  added 153 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-20_W7.62mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-20_W7.62mm.step
+23:21:32  model name DIP-20_W7.62mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-20_W7.62mm.step
+23:21:32  DIP-20_W7.62mm
+23:21:32  renaming not in Origin object
+23:21:32  module Package_DIP.3dshapes/DIP-20_W7.62mm.stpZ
+23:21:32  added 154 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:32  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:32  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:32  copying from cache
+23:21:32  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:32  added 155 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_TO_SOT_THT.3dshapes/TO-92_Inline.step
+23:21:32  model name TO-92_Inline
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step
+23:21:32  TO-92_Inline
+23:21:32  renaming not in Origin object
+23:21:32  module Package_TO_SOT_THT.3dshapes/TO-92_Inline.stpZ
+23:21:32  added 156 model(s)
+23:21:32  "${KIPRJMOD}/Radio86RK.3dshapes/AT-1224-TWT-R.step"
+23:21:32  adjusting Relative Path
+23:21:32  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/AT-1224-TWT-R.step
+23:21:32  model name AT-1224-TWT-R
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/AT-1224-TWT-R.step
+23:21:32  AT-1224-TWT-R
+23:21:32  ASSEMBLY
+23:21:32  multi Part found! ...
+23:21:32  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/AT-1224-TWT-R.stpZ
+23:21:32  added 157 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:32  model name DIP-14_W7.62mm_Socket
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:32  DIP-14_W7.62mm_Socket
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.stpZ
+23:21:32  added 158 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:32  model name DIP-14_W7.62mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:32  DIP-14_W7.62mm
+23:21:32  copying from cache
+23:21:32  module Package_DIP.3dshapes/DIP-14_W7.62mm.stpZ
+23:21:32  added 159 model(s)
+23:21:32  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:32  adjusting 2nd Local Path
+23:21:32  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:32  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:32  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:32  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:32  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:32  copying from cache
+23:21:32  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 160 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  copying from cache
+23:21:33  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:33  added 161 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:33  model name DIP-14_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:33  DIP-14_W7.62mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.stpZ
+23:21:33  added 162 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:33  model name DIP-14_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:33  DIP-14_W7.62mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-14_W7.62mm.stpZ
+23:21:33  added 163 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:33  model name DIP-14_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:33  DIP-14_W7.62mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.stpZ
+23:21:33  added 164 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:33  model name DIP-14_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:33  DIP-14_W7.62mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-14_W7.62mm.stpZ
+23:21:33  added 165 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step
+23:21:33  model name DIP-8_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step
+23:21:33  DIP-8_W7.62mm_Socket
+23:21:33  renaming not in Origin object
+23:21:33  module Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.stpZ
+23:21:33  added 166 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-8_W7.62mm.step
+23:21:33  model name DIP-8_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm.step
+23:21:33  DIP-8_W7.62mm
+23:21:33  renaming not in Origin object
+23:21:33  module Package_DIP.3dshapes/DIP-8_W7.62mm.stpZ
+23:21:33  added 167 model(s)
+23:21:33  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  model name SW_Cherry_MX_PCB
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  SW_Cherry_MX_PCB
+23:21:33  copying from cache
+23:21:33  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:33  added 168 model(s)
+23:21:33  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  model name SW_Cherry_MX_PCB
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  SW_Cherry_MX_PCB
+23:21:33  copying from cache
+23:21:33  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:33  added 169 model(s)
+23:21:33  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  model name SW_Cherry_MX_PCB
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  SW_Cherry_MX_PCB
+23:21:33  copying from cache
+23:21:33  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:33  added 170 model(s)
+23:21:33  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  model name SW_Cherry_MX_PCB
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  SW_Cherry_MX_PCB
+23:21:33  copying from cache
+23:21:33  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:33  added 171 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 172 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_TO_SOT_THT.3dshapes/TO-92_Inline.step
+23:21:33  model name TO-92_Inline
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step
+23:21:33  TO-92_Inline
+23:21:33  copying from cache
+23:21:33  module Package_TO_SOT_THT.3dshapes/TO-92_Inline.stpZ
+23:21:33  added 173 model(s)
+23:21:33  "${KIPRJMOD}/Radio86RK.3dshapes/KLDX-0202-A.step"
+23:21:33  adjusting Relative Path
+23:21:33  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/KLDX-0202-A.step
+23:21:33  model name KLDX-0202-A
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/KLDX-0202-A.step
+23:21:33  KLDX-0202-A
+23:21:33  KLDX-0202-A008
+23:21:33  multi Part found! ...
+23:21:33  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/KLDX-0202-A.stpZ
+23:21:33  added 174 model(s)
+23:21:33  "${KIPRJMOD}/Radio86RK.3dshapes/640456-8.step"
+23:21:33  adjusting Relative Path
+23:21:33  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/640456-8.step
+23:21:33  model name 640456-8
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/640456-8.step
+23:21:33  640456-8
+23:21:33  renaming not in Origin object
+23:21:33  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/640456-8.stpZ
+23:21:33  added 175 model(s)
+23:21:33  "${KIPRJMOD}/Radio86RK.3dshapes/IZ0512S.step"
+23:21:33  adjusting Relative Path
+23:21:33  step-module-replaced /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/IZ0512S.step
+23:21:33  model name IZ0512S
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/IZ0512S.step
+23:21:33  IZ0512S
+23:21:33  Open CASCADE STEP translator 7.8 006
+23:21:33  multi Part found! ...
+23:21:33  module /Users/dveremeev/projects/radio-86rk/KiCad/Radio86RK.3dshapes/IZ0512S.stpZ
+23:21:33  added 176 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:33  model name CP_Radial_D6.3mm_P2.50mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:33  CP_Radial_D6.3mm_P2.50mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.stpZ
+23:21:33  added 177 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:33  model name CP_Radial_D6.3mm_P2.50mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:33  CP_Radial_D6.3mm_P2.50mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.stpZ
+23:21:33  added 178 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:33  model name DIP-14_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.step
+23:21:33  DIP-14_W7.62mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.stpZ
+23:21:33  added 179 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:33  model name DIP-14_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-14_W7.62mm.step
+23:21:33  DIP-14_W7.62mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-14_W7.62mm.stpZ
+23:21:33  added 180 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:33  model name CP_Radial_D6.3mm_P2.50mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step
+23:21:33  CP_Radial_D6.3mm_P2.50mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.stpZ
+23:21:33  added 181 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step
+23:21:33  model name DIP-8_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step
+23:21:33  DIP-8_W7.62mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.stpZ
+23:21:33  added 182 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-8_W7.62mm.step
+23:21:33  model name DIP-8_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm.step
+23:21:33  DIP-8_W7.62mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-8_W7.62mm.stpZ
+23:21:33  added 183 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Connector_Dsub.3dshapes/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.step
+23:21:33  model name DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_Dsub.3dshapes/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.step
+23:21:33  DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+23:21:33  renaming not in Origin object
+23:21:33  module Connector_Dsub.3dshapes/DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.stpZ
+23:21:33  added 184 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step
+23:21:33  model name DIP-8_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.step
+23:21:33  DIP-8_W7.62mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-8_W7.62mm_Socket.stpZ
+23:21:33  added 185 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-8_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-8_W7.62mm.step
+23:21:33  model name DIP-8_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm.step
+23:21:33  DIP-8_W7.62mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-8_W7.62mm.stpZ
+23:21:33  added 186 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 187 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  copying from cache
+23:21:33  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:33  added 188 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  copying from cache
+23:21:33  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:33  added 189 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  copying from cache
+23:21:33  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:33  added 190 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step
+23:21:33  model name DIP-16_W7.62mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step
+23:21:33  DIP-16_W7.62mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.stpZ
+23:21:33  added 191 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-16_W7.62mm.step
+23:21:33  model name DIP-16_W7.62mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-16_W7.62mm.step
+23:21:33  DIP-16_W7.62mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-16_W7.62mm.stpZ
+23:21:33  added 192 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 193 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Vertical.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Crystal.3dshapes/Crystal_HC49-U_Vertical.step
+23:21:33  model name Crystal_HC49-U_Vertical
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Crystal.3dshapes/Crystal_HC49-U_Vertical.step
+23:21:33  Crystal_HC49-U_Vertical
+23:21:33  renaming not in Origin object
+23:21:33  module Crystal.3dshapes/Crystal_HC49-U_Vertical.stpZ
+23:21:33  added 194 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 195 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 196 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 197 model(s)
+23:21:33  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  model name SW_Cherry_MX_PCB
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  SW_Cherry_MX_PCB
+23:21:33  copying from cache
+23:21:33  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:33  added 198 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_TO_SOT_THT.3dshapes/TO-92_Inline.step
+23:21:33  model name TO-92_Inline
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_TO_SOT_THT.3dshapes/TO-92_Inline.step
+23:21:33  TO-92_Inline
+23:21:33  copying from cache
+23:21:33  module Package_TO_SOT_THT.3dshapes/TO-92_Inline.stpZ
+23:21:33  added 199 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  model name R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step
+23:21:33  R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+23:21:33  copying from cache
+23:21:33  module Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.stpZ
+23:21:33  added 200 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  model name C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.step
+23:21:33  C_Disc_D5.0mm_W2.5mm_P5.00mm
+23:21:33  copying from cache
+23:21:33  module Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.stpZ
+23:21:33  added 201 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:33  model name DIP-28_W15.24mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:33  DIP-28_W15.24mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.stpZ
+23:21:33  added 202 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:33  model name DIP-28_W15.24mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:33  DIP-28_W15.24mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-28_W15.24mm.stpZ
+23:21:33  added 203 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+23:21:33  model name PinHeader_1x04_P2.54mm_Vertical
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+23:21:33  PinHeader_1x04_P2.54mm_Vertical
+23:21:33  renaming not in Origin object
+23:21:33  module Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.stpZ
+23:21:33  added 204 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step
+23:21:33  model name PinSocket_1x20_P2.54mm_Vertical
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.step
+23:21:33  PinSocket_1x20_P2.54mm_Vertical
+23:21:33  renaming not in Origin object
+23:21:33  module Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.stpZ
+23:21:33  added 205 model(s)
+23:21:33  "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  model name SW_Cherry_MX_PCB
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Users/dveremeev/Documents/KiCad/10.0/3rdparty/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp
+23:21:33  SW_Cherry_MX_PCB
+23:21:33  copying from cache
+23:21:33  module 3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stpZ
+23:21:33  added 206 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+23:21:33  model name PinHeader_1x04_P2.54mm_Vertical
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+23:21:33  PinHeader_1x04_P2.54mm_Vertical
+23:21:33  copying from cache
+23:21:33  module Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.stpZ
+23:21:33  added 207 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:33  model name DIP-28_W15.24mm_Socket
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step
+23:21:33  DIP-28_W15.24mm_Socket
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.stpZ
+23:21:33  added 208 model(s)
+23:21:33  "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W15.24mm.step"
+23:21:33  adjusting 2nd Local Path
+23:21:33  step-module-replaced Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:33  model name DIP-28_W15.24mm
+23:21:33  on 2 paths: ['/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/', '/Users/dveremeev/Documents/KiCad/10.0/3rdparty/']
+23:21:33  opening /Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-28_W15.24mm.step
+23:21:33  DIP-28_W15.24mm
+23:21:33  copying from cache
+23:21:33  module Package_DIP.3dshapes/DIP-28_W15.24mm.stpZ
+23:21:33  added 209 model(s)
+23:21:33  running time: 12.426sec
+23:21:33  FFC stiffener scan: renamed layer(s) found that don't match the 'Side.Material_thicknessmm' pattern: F.Adhesive, B.Adhesive, F.Silkscreen, B.Silkscreen, User.Drawings, User.Comments, User.Eco1, User.Eco2, F.Courtyard, B.Courtyard
+23:21:33  info message
+23:21:33  Board Placed @ 0.00;0.00;0.0
+23:21:33  kicad pcb pos: (139.70;-107.95;0.00)
+23:21:33  pcb dimensions: (266.70;203.20;1.60)
+23:21:33  Headlight Direction: (-0.3,0.3,-1.0)
+23:21:33  running time: 12.426sec
+23:21:34  GridOrigin is set in FC Preferences but not set in KiCAD pcbnew file
+23:21:59  FreeCAD version: 1.1
+23:21:59  FreeCAD build date: 2026/04/14
+23:21:59  STEP UseAppPart available
+23:22:00  [MCP] async job fffa866d done
+23:22:11  [MCP] async job 2ba64ffd done
+23:22:15  [MCP] async job c0be701b done
+23:22:48  [MCP] async job 4a86899b done
+23:31:32  [MCP] async job 91715b40 done
+00:03:20  [MCP] async job 5deef357 done
+00:10:16  [MCP] async job 784054f0 done
+00:13:10  [MCP] async job 27c27250 done
+00:14:08  [MCP] async job b8c3a9cb done
+00:14:32  [MCP] async job b87b57bc done
+00:31:08  [MCP] async job 824987c2 done
+00:38:41  [MCP] async job b12d4554 done
+00:40:17  [MCP] async job cd9894d3 done
+00:40:40  [MCP] async job f11252af done
+00:41:27  [MCP] async job d5a906df done
+00:41:37  [MCP] async job 7a6c8e14 done
+00:42:02  [MCP] async job c24ea155 done
+00:42:18  [MCP] async job e680d9cf done
