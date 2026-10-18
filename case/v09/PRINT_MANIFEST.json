@@ -1,0 +1,126 @@
+{
+  "version": "v09",
+  "units": "mm",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "1",
+    "20260414 (Git shallow)",
+    "Unknown",
+    "2026/04/14 22:09:59",
+    "(HEAD detached at 0108fd4b4)",
+    "0108fd4b4850cc46e625b60e53cea7a7bbe69f8d"
+  ],
+  "parts": [
+    {
+      "name": "LowerShell",
+      "filename": "print_parts/LowerShell.stl",
+      "assembly_to_print_rotate_X_degrees": 0,
+      "assembly_to_print_translation": [
+        4.300000000000015,
+        219.0,
+        2.8553548414578245e-14
+      ],
+      "print_bbox_mm": [
+        288.0,
+        215.95,
+        13.2
+      ],
+      "solid_volume_mm3": 246867.4614626113,
+      "facets": 31634,
+      "mesh_closed": true,
+      "valid_BRep": true,
+      "BRep_solids": 1,
+      "sha256": "8f565fd7de00e554ab86ac631aeec6ee6a27003a70eea064dd8ad240807d2f64"
+    },
+    {
+      "name": "UpperShell",
+      "filename": "print_parts/UpperShell.stl",
+      "assembly_to_print_rotate_X_degrees": 180,
+      "assembly_to_print_translation": [
+        4.300000000000011,
+        -0.24999999999999684,
+        37.500000000000014
+      ],
+      "print_bbox_mm": [
+        288.0,
+        218.75,
+        27.500000000000014
+      ],
+      "solid_volume_mm3": 191834.0344873096,
+      "facets": 24058,
+      "mesh_closed": true,
+      "valid_BRep": true,
+      "BRep_solids": 1,
+      "sha256": "94ef3628d79a986f9fbc38f5ae3884324c9b73f07e1c2d2aad931176f480829c"
+    },
+    {
+      "name": "J6Hatch",
+      "filename": "print_parts/J6Hatch.stl",
+      "assembly_to_print_rotate_X_degrees": 180,
+      "assembly_to_print_translation": [
+        -118.25000000000001,
+        -1.4499999999999966,
+        37.50000000000001
+      ],
+      "print_bbox_mm": [
+        60.49731668839101,
+        31.547815694729266,
+        19.150000000000006
+      ],
+      "solid_volume_mm3": 6932.4955227829505,
+      "facets": 6804,
+      "mesh_closed": true,
+      "valid_BRep": true,
+      "BRep_solids": 1,
+      "sha256": "4e3fd87c43691cf0dd746208c40281d9ab51fb5e3e153bdacfe883ab510787d3"
+    },
+    {
+      "name": "FoldFootLeft",
+      "filename": "print_parts/FoldFootLeft.stl",
+      "assembly_to_print_rotate_X_degrees": 0,
+      "assembly_to_print_translation": [
+        -27.599999999999987,
+        55.86926663847936,
+        -0.299999999999999
+      ],
+      "print_bbox_mm": [
+        24.79962426510187,
+        22.985085957973116,
+        4.200000000000013
+      ],
+      "solid_volume_mm3": 1177.9173064398244,
+      "facets": 4564,
+      "mesh_closed": true,
+      "valid_BRep": true,
+      "BRep_solids": 1,
+      "sha256": "0daa1bd6895775156e1c554eb09657a43082648fa9e722a97ab96edf84918c74"
+    },
+    {
+      "name": "FoldFootRight",
+      "filename": "print_parts/FoldFootRight.stl",
+      "assembly_to_print_rotate_X_degrees": 0,
+      "assembly_to_print_translation": [
+        -226.99999999999997,
+        55.86926663847936,
+        -0.299999999999999
+      ],
+      "print_bbox_mm": [
+        24.79962426510187,
+        22.985085957973116,
+        4.200000000000013
+      ],
+      "solid_volume_mm3": 1177.9173064398274,
+      "facets": 4564,
+      "mesh_closed": true,
+      "valid_BRep": true,
+      "BRep_solids": 1,
+      "sha256": "1204711decc86635cf7bfbf5a6121149f2bb25578a46b050073b298782d3f447"
+    }
+  ],
+  "notes": [
+    "Five PCTG parts, elastomer pads and metal hardware excluded.",
+    "Upper shell and hatch need removable supports for recessed deck and cantilever springs. Do not fill functional gaps with inseparable support.",
+    "Physical coupons are required before full-case printing; no validated manufacturer profile or shrinkage factor."
+  ]
+}

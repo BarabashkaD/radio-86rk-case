@@ -1,0 +1,7 @@
+import os,sys,FreeCAD as A,FreeCADGui as G
+r=os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0,r)
+import case_model_v09,rib_grid_v09,feet_snap_v08,hinge_snap_candidate,hinge_snap_finish,latch_v08,ports_v08,seam_snaps_v08,grille_fill_v05
+d=A.openDocument(os.path.join(r,'Radio86_Case_Parametric_09.FCStd'))
+G.activeDocument().activeView().viewAxonometric()
+G.activeDocument().activeView().fitAll()
