@@ -1,0 +1,208 @@
+{
+  "status": "ACCEPTED_NET_LOCKED_CONFIGURATION",
+  "network_sha256": "65ad04ac64cdccf7210d228b9425cbde1797ca07192ba0e570c7ab76e4215b39",
+  "roots": [
+    {
+      "edge": 148,
+      "radius": 0.6
+    },
+    {
+      "edge": 157,
+      "radius": 0.6
+    },
+    {
+      "edge": 158,
+      "radius": 0.6
+    },
+    {
+      "edge": 162,
+      "radius": 0.6
+    },
+    {
+      "edge": 173,
+      "radius": 0.6
+    },
+    {
+      "edge": 176,
+      "radius": 0.6
+    },
+    {
+      "edge": 177,
+      "radius": 0.6
+    },
+    {
+      "edge": 184,
+      "radius": 0.6
+    },
+    {
+      "edge": 185,
+      "radius": 0.6
+    },
+    {
+      "edge": 188,
+      "radius": 0.6
+    },
+    {
+      "edge": 189,
+      "radius": 0.6
+    },
+    {
+      "edge": 190,
+      "radius": 0.6
+    },
+    {
+      "edge": 259,
+      "radius": 0.6
+    },
+    {
+      "edge": 260,
+      "radius": 0.6
+    },
+    {
+      "edge": 271,
+      "radius": 0.6
+    },
+    {
+      "edge": 272,
+      "radius": 0.6
+    },
+    {
+      "edge": 283,
+      "radius": 0.6
+    },
+    {
+      "edge": 295,
+      "radius": 0.6
+    },
+    {
+      "edge": 333,
+      "radius": 0.6
+    },
+    {
+      "edge": 334,
+      "radius": 0.6
+    },
+    {
+      "edge": 372,
+      "radius": 0.6
+    },
+    {
+      "edge": 373,
+      "radius": 0.6
+    },
+    {
+      "edge": 375,
+      "radius": 0.6
+    },
+    {
+      "edge": 397,
+      "radius": 0.3
+    },
+    {
+      "edge": 829,
+      "radius": 0.6
+    },
+    {
+      "edge": 830,
+      "radius": 0.6
+    },
+    {
+      "edge": 843,
+      "radius": 0.6
+    },
+    {
+      "edge": 844,
+      "radius": 0.6
+    },
+    {
+      "edge": 854,
+      "radius": 0.6
+    },
+    {
+      "edge": 866,
+      "radius": 0.6
+    },
+    {
+      "edge": 902,
+      "radius": 0.6
+    },
+    {
+      "edge": 903,
+      "radius": 0.6
+    },
+    {
+      "edge": 932,
+      "radius": 0.6
+    },
+    {
+      "edge": 933,
+      "radius": 0.6
+    },
+    {
+      "edge": 935,
+      "radius": 0.6
+    },
+    {
+      "edge": 947,
+      "radius": 0.3
+    },
+    {
+      "edge": 1534,
+      "radius": 0.6
+    },
+    {
+      "edge": 1535,
+      "radius": 0.6
+    },
+    {
+      "edge": 1545,
+      "radius": 0.6
+    },
+    {
+      "edge": 1546,
+      "radius": 0.6
+    },
+    {
+      "edge": 1568,
+      "radius": 0.6
+    },
+    {
+      "edge": 1584,
+      "radius": 0.6
+    },
+    {
+      "edge": 1649,
+      "radius": 0.6
+    },
+    {
+      "edge": 1650,
+      "radius": 0.6
+    },
+    {
+      "edge": 1696,
+      "radius": 0.6
+    },
+    {
+      "edge": 1697,
+      "radius": 0.6
+    },
+    {
+      "edge": 1701,
+      "radius": 0.6
+    },
+    {
+      "edge": 1708,
+      "radius": 0.6
+    },
+    {
+      "edge": 1717,
+      "radius": 0.3
+    },
+    {
+      "edge": 1732,
+      "radius": 0.6
+    }
+  ],
+  "expected_count": 50,
+  "topology_editability": "requires matching registry and CAD proof"
+}

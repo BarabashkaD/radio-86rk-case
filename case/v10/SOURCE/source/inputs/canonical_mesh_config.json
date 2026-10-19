@@ -1,0 +1,7 @@
+{
+  "gmsh_binary": "/workspace/scratch/072ad2dfcea4/radio_v09_restored/software/squashfs-root/usr/bin/gmsh",
+  "gmsh_sha256": "85db8c3b7ef90509b23f813b9bbf983ba9bfcd5ea90099525fb5aa7ec7b564a5",
+  "gmsh_version": "4.15.0",
+  "upper_engine": "Gmsh",
+  "other_engine": "Netgen"
+}

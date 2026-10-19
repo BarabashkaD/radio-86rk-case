@@ -1,0 +1,118 @@
+{
+  "schema_version": 3,
+  "status": "NOMINAL_DIGITALLY_VERIFIED_PROTOTYPE_WITH_LIMITATIONS",
+  "release_ready": false,
+  "units": "mm",
+  "files": {
+    "model.FCStd": {
+      "sha256": "ebe71f30a4b8b7f3c5a5a6231bd96528141aa7000b1f5ffd56541f458a26e1ca",
+      "bytes": 3550806
+    },
+    "PRINT_UPPER_7ZIP.zip.001": {
+      "bytes": 8388608,
+      "sha256": "eff7d6b0f3b415025374eff5ff64132c97071f383ba00f37d3f2f013f8b4f4dc"
+    },
+    "PRINT_UPPER_7ZIP.zip.002": {
+      "bytes": 8388608,
+      "sha256": "9ad2970e52dd64ebb207d68c9c4323da214ae26e5128c747667f7e49b5991f15"
+    },
+    "PRINT_UPPER_7ZIP.zip.003": {
+      "bytes": 8388608,
+      "sha256": "b31ae0c331c79e1a6ab43ab6d272c6a9bc75fdd4b9ae95d23f2c5945cc40c5bd"
+    },
+    "PRINT_UPPER_7ZIP.zip.004": {
+      "bytes": 8388608,
+      "sha256": "fb22781b5f4d6b1495b3c150cb52d5aa9c25b8fcb1ae0c76e3501f91baea21e8"
+    },
+    "PRINT_UPPER_7ZIP.zip.005": {
+      "bytes": 5124138,
+      "sha256": "46c694cd2ceb9e924fbffa4ab301c14cf9f57bed45d6c08874e6aad8830b1a7c"
+    },
+    "PRINT_OTHER_PARTS.zip.001": {
+      "bytes": 8388608,
+      "sha256": "8213e34c189d0ebed6bc25c8c7843f0b3127d5db11493f7ad7de4806e3f84c40"
+    },
+    "PRINT_OTHER_PARTS.zip.002": {
+      "bytes": 5476674,
+      "sha256": "1582cebe7ad425859fdeaa0879bf753b76312af6fcc7c3cdcf59e911c404da93"
+    }
+  },
+  "archive_members": [
+    {
+      "name": "LowerShell.stl",
+      "sha256": "5e35811cba684749a3f30eca14dd2140f2b75fbecdc8359a7177715e1d455300",
+      "bytes": 39975784,
+      "archive": "PRINT_OTHER_PARTS.zip"
+    },
+    {
+      "name": "UpperShell.stl",
+      "sha256": "74bd66fc750a1041b04d30d60094f694310875a88ba6ce4f067d6c19b5f3d9d2",
+      "bytes": 142179484,
+      "archive": "PRINT_UPPER_7ZIP.zip"
+    },
+    {
+      "name": "J6Hatch.stl",
+      "sha256": "cdd4fd3f4eb4e4f105cdceb6a70c0438f65951917432eeea2a892803a8a35023",
+      "bytes": 2184984,
+      "archive": "PRINT_OTHER_PARTS.zip"
+    },
+    {
+      "name": "FoldFootLeft.stl",
+      "sha256": "26a28506917dd8bd9f473f42f3f56d5a06482f3e1d896538ed7bff1625ae7d24",
+      "bytes": 1092084,
+      "archive": "PRINT_OTHER_PARTS.zip"
+    },
+    {
+      "name": "FoldFootRight.stl",
+      "sha256": "6e4b75fe7d9e7bbdf911513fc907b9f713014d1a2fc745e1f07c4e67cf121e9a",
+      "bytes": 1092084,
+      "archive": "PRINT_OTHER_PARTS.zip"
+    }
+  ],
+  "validation": {
+    "aggregate_sha256": "a0fdab871adc6daece9cfe031067f4c42e9aa90f8afad64e618d566c051600bc",
+    "endpoint_receipt_sha256": "e18c8a24a890d47e8113057469b3645587c4f8a6f02ff16fad6b77892d597d08",
+    "vent_feeder_smoke_sha256": "6bccc851338755cdf6a8ede19c77e97cca500e3e8d1b7cc9949695d4130f63be"
+  },
+  "limitations": [
+    "Enter stabilizer motion conditional",
+    "Physical material/fit/fatigue tests required",
+    "Changed full-case parameter configurations not validated",
+    "STEP failed roundtrip and excluded"
+  ],
+  "source_file_count": 57,
+  "source_project_sha256": "fba7379e4b82224560c9f7fcbb19817426fe3ac2c31f21abd71dc782ae43c790",
+  "views": {
+    "views/lower_inside.png": "c88d0273fd9c7aa6438b979641e15f9aa3c35918170e364c3b3f3858691ecef6",
+    "views/upper_inside.png": "6e0ae6b0425cd53e0dc599584dcac46ea28ca48e7b0f34c9f4ba7d4f5d999d37"
+  },
+  "archive_extraction": {
+    "method": "Download all seven volumes to one folder, keeping exact names. In 7-Zip open PRINT_UPPER_7ZIP.zip.001 and extract; repeat for PRINT_OTHER_PARTS.zip.001. If the first extraction yields a .zip, extract that ZIP again.",
+    "format": "Byte-split ZIP archives; numeric-order concatenation recreates each exact archive. Upper ZIP uses LZMA.",
+    "volume_limit_bytes": 8388608
+  },
+  "archive_verification": "Concatenation SHA256, ZIP CRC and SHA256 of all five extracted STL verified. 7-Zip executable was unavailable for local UI testing.",
+  "logical_archives": {
+    "PRINT_UPPER_7ZIP.zip": {
+      "sha256": "c16ac69a0f8c3e9d1e29624fde6c5992350c116d7630f13e917ca59ca0033bf7",
+      "bytes": 38678570,
+      "compression": "ZIP_LZMA",
+      "volumes": [
+        "PRINT_UPPER_7ZIP.zip.001",
+        "PRINT_UPPER_7ZIP.zip.002",
+        "PRINT_UPPER_7ZIP.zip.003",
+        "PRINT_UPPER_7ZIP.zip.004",
+        "PRINT_UPPER_7ZIP.zip.005"
+      ]
+    },
+    "PRINT_OTHER_PARTS.zip": {
+      "sha256": "34de149c9e34a3d659359dfb05a1ac53dd38b84996908f6d7f94005febd889b1",
+      "bytes": 13865282,
+      "compression": "DEFLATE",
+      "volumes": [
+        "PRINT_OTHER_PARTS.zip.001",
+        "PRINT_OTHER_PARTS.zip.002"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1464 @@
+{
+  "schema_version": 1,
+  "status": "candidate",
+  "build_mode": "frozen_node_assembly",
+  "parameters": {
+    "Width": 300.0,
+    "Depth": 215.95,
+    "CenterX": 139.7,
+    "Floor": 3.0,
+    "Wall": 2.8,
+    "OuterCornerRadius": 5.0,
+    "PCBThickness": 1.6,
+    "PCBBottomZ": 13.0,
+    "ShoulderZ": 30.0,
+    "RoofZ": 37.5,
+    "DeckZ": 20.6,
+    "SideSeamZ": 16.2,
+    "RearSeamZ": 21.6,
+    "RearRampLength": 20.0,
+    "TongueWidth": 1.2,
+    "TongueHeight": 2.0,
+    "GrooveWidth": 1.5,
+    "GrooveHeight": 2.3,
+    "JointGap": 0.3,
+    "JointLargeRadius": 0.6,
+    "JointSmallRadius": 0.3,
+    "OuterSeamChamfer": 0.3,
+    "SideSlotExternalWidth": 3.0,
+    "SideSlotAngle": 60.0,
+    "SideSlotPitch": 5.5,
+    "SideSlotHeight": 6.0,
+    "SideSlotBottomMargin": 5.0,
+    "TopSlotExternalWidth": 3.0,
+    "TopSlotLength": 18.0,
+    "TopSlotAngle": 60.0,
+    "TopSlotPitch": 5.5,
+    "RibWidth": 1.8,
+    "RibHeight": 6.0,
+    "FloorInnerRadius": 2.0,
+    "RibRootRadius": 0.6,
+    "RibNodeRadius": 1.0,
+    "PostRootRadius": 2.0,
+    "BossDiameter": 10.0,
+    "CaseSeatZ": 16.2,
+    "ScrewLength": 20.0,
+    "HeadSeatZ": 3.2,
+    "HeadPocketDiameter": 6.6,
+    "CaseThroughDiameter": 3.4,
+    "InsertLength": 5.7,
+    "InsertOD": 4.6,
+    "PilotDiameter": 4.0,
+    "CapEdgeZ": 23.2,
+    "CapRise": 0.2,
+    "SideSlotTopMargin": 5.199999999999999,
+    "PCBTopZ": 14.6,
+    "CapRadius": 10.1,
+    "CapApexZ": 23.4,
+    "PCBMounts": [
+      [
+        11.43,
+        -11.43
+      ],
+      [
+        267.97,
+        -11.43
+      ],
+      [
+        11.43,
+        -91.44
+      ],
+      [
+        267.97,
+        -91.44
+      ],
+      [
+        139.7,
+        -110.49
+      ],
+      [
+        62.23,
+        -204.47
+      ],
+      [
+        207.01,
+        -204.47
+      ]
+    ],
+    "CaseMounts": [
+      [
+        -1.8,
+        -198.0
+      ],
+      [
+        -1.8,
+        -24.0
+      ],
+      [
+        281.2,
+        -198.0
+      ],
+      [
+        281.2,
+        -24.0
+      ]
+    ],
+    "FeetAxes": [
+      [
+        40.0,
+        -35.0,
+        2.5
+      ],
+      [
+        239.4,
+        -35.0,
+        2.5
+      ]
+    ],
+    "PadCentres": [
+      [
+        10.7,
+        -204.0
+      ],
+      [
+        268.7,
+        -204.0
+      ],
+      [
+        10.7,
+        -18.05
+      ],
+      [
+        268.7,
+        -18.05
+      ]
+    ],
+    "EnterMotionStatus": "CONDITIONAL",
+    "VentilationSideInwardExtension": 0.0,
+    "VentilationTopInwardExtension": 0.0,
+    "FootAngle": 0.0,
+    "RearOriginX": -10.3,
+    "RearOuterY": -3.05,
+    "RearWindows": [
+      [
+        181.0964,
+        212.4964,
+        27.4
+      ],
+      [
+        92.21,
+        113.51,
+        36.36
+      ],
+      [
+        31.84,
+        41.44,
+        27.04
+      ],
+      [
+        19.293,
+        23.893,
+        21.6
+      ]
+    ],
+    "RearWindowChamfer": 0.5,
+    "RearRCA": [
+      234.95,
+      21.6,
+      5.6
+    ],
+    "RearU25Box": [
+      45.375,
+      -10.5,
+      4.55,
+      10.85,
+      5.07,
+      29.125
+    ],
+    "RearJ6BoundsX": [
+      123.25,
+      173.93
+    ],
+    "RearJ6AxisYZ": [
+      -4.45,
+      16.25
+    ],
+    "RearJ6CutBox": [
+      123.25,
+      -27.85,
+      14.6,
+      50.68,
+      35.0,
+      30.0
+    ],
+    "RearJ6SupportRadius": 1.65,
+    "RearJ6SupportLength": 3.0,
+    "RearJ6SocketRadius": 1.15,
+    "RearJ6ChamferYZ": [
+      [
+        -3.05,
+        14.6
+      ],
+      [
+        -3.05,
+        13.4
+      ],
+      [
+        -5.05,
+        14.6
+      ]
+    ],
+    "RearSmallReliefBox": [
+      18.793,
+      -6.5,
+      21.6,
+      5.6,
+      4.0,
+      3.1
+    ],
+    "RearUpperResetClosureBox": [
+      18.793,
+      -5.85,
+      21.6,
+      5.6,
+      2.8,
+      3.1
+    ],
+    "RibPitch": 40.0,
+    "SideMarginMode": "height_bottom",
+    "UpperWallRootRadius": 2.0,
+    "UpperChipRibPitch": 44.0,
+    "UpperPerimeterRadius": 2.0,
+    "UpperGussetEdgeRadius": 0.5,
+    "FrontTransitionRadius": 1.0,
+    "UpperChipAirPolicy": "verify_only"
+  },
+  "inputs": {
+    "electronics": {
+      "path": "inputs/electronics.FCStd",
+      "sha256": "69a7b21326895688aa86923bd2094633bb2f038f2043c6379b0d6f62ff8e2d26",
+      "kind": "electronics"
+    },
+    "layout": {
+      "path": "inputs/layout_data.json",
+      "sha256": "a2e34e3ff2944b256e92c4a9e1288d7f6b649d33973dae0e3e0b414d6e89784c",
+      "kind": "layout"
+    },
+    "v09_reference": {
+      "path": "inputs/Radio86_CaseOnly_09.FCStd",
+      "sha256": "e1fa1b6c20a1da08d4d0c86b3cd397e0cadad070100ca004078a43a75224d553",
+      "kind": "accepted_geometry"
+    },
+    "shallow_cap": {
+      "path": "inputs/Radio86_v10_M3x20_shallow_cap_study.FCStd",
+      "sha256": "0a84595567c207c343cae2a4e49ed3c9538c5d808c2ebf7723d4692043b15039",
+      "kind": "accepted_geometry"
+    },
+    "rear_wall": {
+      "path": "inputs/Radio86_v10_RearWall_Unified.FCStd",
+      "kind": "accepted_geometry",
+      "sha256": "6b602fc4ce96a9ec19c61edf6c36c231bd91bc1ba0ae8dada21f7bb52378bbe2"
+    },
+    "j6_accepted": {
+      "path": "inputs/Radio86_v10_J6_120_candidate.FCStd",
+      "kind": "accepted_geometry",
+      "sha256": "9f5ccaac6cfb684374ab4c57fcac12988b4a3f96f97df7915fae69f2d36c15b0"
+    },
+    "ventilation_source": {
+      "path": "src/ventilation_v10.py",
+      "sha256": "6bc0c727d150143a51d6831e6cd644f570056e7b69d2e89bc7d8f8bafa6cd81b",
+      "kind": "source"
+    },
+    "parameters_source": {
+      "path": "src/v10_parameters.py",
+      "sha256": "04c2a078add208acef6c7a5b4808f23f22b5d42b4f96734f8bf58ea8889ffbef",
+      "kind": "source"
+    },
+    "inventory_adapter_source": {
+      "path": "inventory_adapter.py",
+      "sha256": "e8ac4ea3f933871c5398c67f31cf46b83d346f261959634e532434fa0ce8d604",
+      "kind": "source"
+    },
+    "ventilation_adapter_source": {
+      "path": "ventilation_adapter.py",
+      "sha256": "6d3c425e3d76f8ccbc0ea334da6b5c58b229ce6425849da265a12a3956f395cf",
+      "kind": "source"
+    },
+    "fan_reference": {
+      "path": "references/approved_lower_fan.brep",
+      "sha256": "63c06374011af1207ab23e5f8d55e7777d35f23a8d8f61369951bbc690e4fa9b",
+      "kind": "reference"
+    },
+    "lower_foundation_adapter_source": {
+      "path": "lower_foundation_adapter.py",
+      "sha256": "a0a44ef118fa9a86cfce7e591d1e791a6c8681088dd745878a793cafee2b3d38",
+      "kind": "source"
+    },
+    "feet_stage_adapter_source": {
+      "path": "feet_stage_adapter.py",
+      "sha256": "3d78c23b974fd5df70df2c19697f2384119b0c213706295dcf72dd2aadc49327",
+      "kind": "source"
+    },
+    "feet_legacy_source": {
+      "path": "src/feet_v10_geometry.py",
+      "sha256": "ba3a33920deefb1889a12cd9f49e781e61e58f7be1146aa2665a8743a4e27c0c",
+      "kind": "source"
+    },
+    "feet_layout_source": {
+      "path": "src/feet_v10_adapter.py",
+      "sha256": "f3207d4f3744a74b5f236b35bb68565d7b6b234185cdaa419dacc3b7b637d4cb",
+      "kind": "source"
+    },
+    "rear_adapter_source": {
+      "path": "rear_stage_adapter.py",
+      "sha256": "1a7fd9e8e875e3357a890362bb8c835cbed303193444d1948e32e5f6d5bfa739",
+      "kind": "source"
+    },
+    "rear_geometry_source": {
+      "path": "src/rear_wall_with_j6_geometry.py",
+      "sha256": "e7a8ca7ea98f35467e4ef77c6e473ef01d89d087bce4c1b7bcb6c74df544f839",
+      "kind": "source"
+    },
+    "rounded_joint_source": {
+      "path": "src/rounded_joint_v10.py",
+      "sha256": "71dfc6502383b63afc378877f697d7c154a148cf604c3af7c0c67744feae3416",
+      "kind": "source"
+    },
+    "geometry_checks_source": {
+      "path": "geometry_checks.py",
+      "kind": "source",
+      "sha256": "6fbff42e428e3d051ac1f13a992e0381515933fb2d50653914d3e6bff4e41508"
+    },
+    "keyboard_stage_source": {
+      "path": "keyboard_stage_adapter.py",
+      "sha256": "5f75af0f3ab4ef67de2978de596560cb4afa19ed9e6f82d3e10697962da0a067",
+      "kind": "source"
+    },
+    "keyboard_geometry_source": {
+      "path": "proposed_hooks/keyboard_replacement_geometry.py",
+      "sha256": "6b487bdc91eee3f91ace5141049502448a26b0450f94b4c159586e79630c617d",
+      "kind": "source"
+    },
+    "keyboard_feeder_source": {
+      "path": "keyboard_feeders.py",
+      "sha256": "ba0f26ae321d6600d44e0fd6f9506a02c687535269cd43d7f5820cc0a9b292df",
+      "kind": "source"
+    },
+    "upper_final_adapter_source": {
+      "path": "upper_final_adapters.py",
+      "kind": "source",
+      "sha256": "9d5274382de9b6104d8da5651674e97b5202e3556682f3d9e530c3bc542f54ad"
+    },
+    "lower_cold_source": {
+      "path": "lower_cold_adapters.py",
+      "kind": "source",
+      "sha256": "e6c502332a557c737275900a24bd22ed9809d5af42f6300d0486bb19e53988b8"
+    },
+    "ramp_source": {
+      "path": "src/rear_ramp_cold.py",
+      "kind": "source",
+      "sha256": "0c86495b4c42b89d91efb3c95d14aee657f27c58a4b2b5e263164b9dbb610712"
+    },
+    "lower_grid_source": {
+      "path": "src/lower_grid_cold.py",
+      "kind": "source",
+      "sha256": "cf390b80e53e71f9ee4e8eb2812c0c466a881dc266a5dedca442d9092a88c4a6"
+    },
+    "lower_grid_layout_source": {
+      "path": "src/lower_grid_layout.py",
+      "kind": "source",
+      "sha256": "d5287de886717808aa1e6b83253cf412567e5dc304d4268d3ebd79882519c1cb"
+    },
+    "ventilation_parameters_source": {
+      "path": "ventilation_parameters.py",
+      "kind": "source",
+      "sha256": "c6267734a0d9ac7cf5c7a40df1c5cc23d1d2f2e2eba2e2e9af01ebe696a8dc53"
+    },
+    "enter_feeder_adapter": {
+      "path": "enter_feeders_new/enter_feeders.py",
+      "sha256": "cac0e9fe8cf521affaea91e03e0971250d45f1610f347f751f1b3b20702c1eb4",
+      "kind": "source"
+    },
+    "foundation_rear_snapshot": {
+      "path": "upper_feeders_new/inputs/foundation_rear_snapshot.brep",
+      "sha256": "2ac6ec73b8c995c1085987928991fe4fcee4534b93a1ccc9027048a9de335cac",
+      "kind": "accepted_geometry"
+    },
+    "foundation_j6_snapshot": {
+      "path": "upper_feeders_new/inputs/foundation_j6_snapshot.brep",
+      "sha256": "a3560329e289dfc053d2b2a687b3b15806a2fc306177595cf179cc1b314a9b36",
+      "kind": "accepted_geometry"
+    },
+    "foundation_v09_upper_snapshot": {
+      "path": "upper_feeders_new/inputs/foundation_v09_upper_snapshot.brep",
+      "sha256": "49c0fd04090a502ccb9356500c54eda19a0c7fe89a70dc8857147af3c7d0167a",
+      "kind": "accepted_geometry"
+    },
+    "upper_feeders_source": {
+      "path": "upper_feeders_new/upper_feeders.py",
+      "sha256": "019de6ff6d7dc0fdeacaf38fdc807859154a1b407bf0d184fadb16b333bc43ab",
+      "kind": "source"
+    },
+    "upper_root_adapter_source": {
+      "path": "upper_root_adapters.py",
+      "kind": "source",
+      "sha256": "5786a672d437365f9aa089b0e6f65b4cc56ed0b62b28dd3c066190dbe1f8a7ca"
+    },
+    "slope_root_source": {
+      "path": "src/upper_slope_roots_cold.py",
+      "kind": "source",
+      "sha256": "665d1b9c6d41438ecf907020832d1051b0c249bb83f09354b1da05feaf91995c"
+    },
+    "slope_root_registry": {
+      "path": "inputs/upper_slope_root_registry.json",
+      "kind": "layout",
+      "sha256": "eeb6c499e28d17090ab77e69c15ed83a13da139bf3b0cf637d644a346e35585b"
+    },
+    "root_geometric_registry": {
+      "path": "inputs/upper_root_geometric_registry.json",
+      "kind": "layout",
+      "sha256": "2c81f02797169d420395611eefb060712c9e22d39f9964b77f5d583f3d10454b"
+    },
+    "root_registry_matcher_source": {
+      "path": "root_registry_matching.py",
+      "kind": "source",
+      "sha256": "d11caff2fd4c8d787e761a38bcb50ddf400988ae4aa98725997b1c6802824aba"
+    },
+    "upper_reinforcement_source": {
+      "path": "upper_reinforcement_new/upper_reinforcement.py",
+      "sha256": "fa6df366ac4099cbad60d417e0c7f26b7ea089684c62ac6587aee971a62e311b",
+      "kind": "source"
+    },
+    "document_export_source": {
+      "path": "export_new/document_export.py",
+      "sha256": "43202967f2f0cbca980e28dd0cd65024a6adad283e38fa95440a5ebc6d5b422c",
+      "kind": "source"
+    },
+    "export_proxy_source": {
+      "path": "export_new/cold_build_proxy.py",
+      "sha256": "bf1c9f025acf5062190468a912b21fd1a737fb17e84144f79324134936499f3c",
+      "kind": "source"
+    },
+    "export_worker_source": {
+      "path": "export_new/cold_rebuild_worker.py",
+      "sha256": "e4a76fdb6c8c079e622b2c7f7e17a5f641c18e25907008eb1be7255a3bec3da1",
+      "kind": "source"
+    },
+    "release_checks_source": {
+      "path": "checks_new/release_checks.py",
+      "sha256": "b5c8824aa219590e0bc0fbb27e83d387f88c2e872a92d39cdd44b7d776c259a9",
+      "kind": "source"
+    },
+    "enter_supported_reference": {
+      "path": "inputs/enter_supported_rounded.reference.brep",
+      "sha256": "2b0585ac5b9511ad47e068f5943f2ab4114fd9401ce9dd2b24200706719ada50",
+      "kind": "accepted_geometry"
+    },
+    "chip_root_recipe": {
+      "path": "inputs/upper_chip_root_accepted_recipe.json",
+      "sha256": "3e8e6420dae625b9ccc176b19f0e7db991db5eee615df7e8ec4b303acf952a52",
+      "kind": "source"
+    },
+    "slope_only_adapter": {
+      "path": "slope_root_adapter.py",
+      "sha256": "481575c5c3959fd404f2083f960ee69497f0d6c257c255acea25365524815681",
+      "kind": "source"
+    },
+    "canonical_mesh_source": {
+      "path": "export_new/canonical_mesh.py",
+      "sha256": "6b9eb5af34b9dc87d4cfd894eecda6c6f79a5fb9502252bbf1d634772e12e52b",
+      "kind": "source"
+    },
+    "zero_area_filter_source": {
+      "path": "export_new/zero_area_filter.py",
+      "sha256": "623057be75ae939dabc736e7dff1a3cf6a8646204d820c5d2b14461ba97d88fa",
+      "kind": "source"
+    },
+    "canonical_mesh_config": {
+      "path": "inputs/canonical_mesh_config.json",
+      "sha256": "3df926e02947b7ba1e4a3ab0b1c06714280c765fa7375b7c9a6c5724011ab8c5",
+      "kind": "source"
+    },
+    "g_front_adapter_source": {
+      "path": "pending_fixes/g_front_scope019e/g_front_adapter.py",
+      "sha256": "700d5de4f1bbe8402cfd5a599d56e84fd0dbfbdd5c2ebcb43550987d6b48ba09",
+      "kind": "source"
+    }
+  },
+  "stages": [
+    {
+      "id": "inventory",
+      "adapter": "inventory_adapter_source",
+      "entrypoint": "build_inventory",
+      "needs": [
+        "electronics"
+      ],
+      "outputs": {
+        "inventory": {
+          "path": "generated/inventory.json",
+          "kind": "json"
+        },
+        "inventory_provenance": {
+          "path": "generated/inventory_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "rear_lower",
+      "adapter": "rear_adapter_source",
+      "entrypoint": "build_lower",
+      "needs": [
+        "rear_geometry_source",
+        "rounded_joint_source",
+        "geometry_checks_source"
+      ],
+      "owns_enter": false,
+      "outputs": {
+        "rear_lower": {
+          "path": "generated/rear_lower.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "rear_lower_provenance": {
+          "path": "generated/rear_lower_provenance.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "id": "rear_upper",
+      "adapter": "rear_adapter_source",
+      "entrypoint": "build_upper",
+      "needs": [
+        "rear_geometry_source",
+        "rounded_joint_source",
+        "geometry_checks_source"
+      ],
+      "owns_enter": false,
+      "outputs": {
+        "rear_upper": {
+          "path": "generated/rear_upper.brep",
+          "kind": "brep",
+          "solids": 2
+        },
+        "rear_upper_provenance": {
+          "path": "generated/rear_upper_provenance.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "adapter": "ventilation_adapter_source",
+      "needs": [
+        "parameters_source",
+        "ventilation_source",
+        "ventilation_parameters_source"
+      ],
+      "owns_enter": false,
+      "id": "ventilation_layout",
+      "entrypoint": "build_layout",
+      "outputs": {
+        "ventilation_layout": {
+          "path": "generated/ventilation_layout.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "adapter": "ventilation_adapter_source",
+      "needs": [
+        "parameters_source",
+        "ventilation_source",
+        "ventilation_parameters_source"
+      ],
+      "owns_enter": false,
+      "id": "ventilation_cutters",
+      "entrypoint": "build_cutters",
+      "outputs": {
+        "side_cutters": {
+          "path": "generated/side_cutters.brep",
+          "kind": "brep",
+          "solids": 48
+        },
+        "top_cutters": {
+          "path": "generated/top_cutters.brep",
+          "kind": "brep",
+          "solids": 28
+        },
+        "ventilation_cutters_provenance": {
+          "path": "generated/ventilation_cutters_provenance.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "id": "extract_stabilizer",
+      "adapter": "enter_feeder_adapter",
+      "entrypoint": "extract_stabilizer",
+      "needs": [
+        "electronics"
+      ],
+      "outputs": {
+        "enter_stabilizer_10": {
+          "path": "enter/enter_stabilizer_10.brep",
+          "kind": "brep_reference"
+        },
+        "enter_stabilizer_11": {
+          "path": "enter/enter_stabilizer_11.brep",
+          "kind": "brep_reference"
+        },
+        "enter_stabilizer_12": {
+          "path": "enter/enter_stabilizer_12.brep",
+          "kind": "brep_reference"
+        },
+        "enter_stabilizer_13": {
+          "path": "enter/enter_stabilizer_13.brep",
+          "kind": "brep_reference"
+        },
+        "enter_stabilizer_14": {
+          "path": "enter/enter_stabilizer_14.brep",
+          "kind": "brep_reference"
+        },
+        "enter_stabilizer_provenance": {
+          "path": "enter/enter_stabilizer_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "extract_fan",
+      "adapter": "lower_foundation_adapter_source",
+      "entrypoint": "extract_fan",
+      "needs": [
+        "shallow_cap",
+        "fan_reference",
+        "geometry_checks_source"
+      ],
+      "outputs": {
+        "fan": {
+          "path": "generated/fan.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "fan_provenance": {
+          "path": "generated/fan_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "lower_foundation",
+      "adapter": "lower_foundation_adapter_source",
+      "entrypoint": "build_foundation",
+      "needs": [
+        "fan",
+        "fan_reference",
+        "geometry_checks_source"
+      ],
+      "outputs": {
+        "lower_foundation": {
+          "path": "generated/lower_foundation.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "lower_foundation_provenance": {
+          "path": "generated/lower_foundation_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "lower_perimeter",
+      "adapter": "lower_cold_source",
+      "entrypoint": "build_perimeter",
+      "needs": [
+        "lower_foundation",
+        "rear_wall",
+        "j6_accepted",
+        "parameters_source",
+        "ventilation_source",
+        "rounded_joint_source",
+        "ramp_source",
+        "geometry_checks_source",
+        "ventilation_adapter_source",
+        "keyboard_stage_source",
+        "ventilation_parameters_source"
+      ],
+      "outputs": {
+        "lower_base": {
+          "path": "generated/lower_base.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "lower_wall": {
+          "path": "generated/lower_wall.brep",
+          "kind": "brep_compound"
+        },
+        "lower_perimeter_provenance": {
+          "path": "generated/lower_perimeter_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "lower_grid",
+      "adapter": "lower_cold_source",
+      "entrypoint": "build_grid",
+      "needs": [
+        "lower_base",
+        "lower_wall",
+        "inventory",
+        "lower_grid_source",
+        "parameters_source",
+        "ventilation_source",
+        "rounded_joint_source",
+        "ramp_source",
+        "geometry_checks_source",
+        "ventilation_adapter_source",
+        "keyboard_stage_source",
+        "lower_grid_layout_source",
+        "ventilation_parameters_source"
+      ],
+      "outputs": {
+        "lower_grid": {
+          "path": "generated/lower_grid.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "lower_grid_provenance": {
+          "path": "generated/lower_grid_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "feet",
+      "adapter": "feet_stage_adapter_source",
+      "entrypoint": "build_feet",
+      "needs": [
+        "lower_grid",
+        "parameters_source",
+        "feet_legacy_source",
+        "feet_layout_source",
+        "geometry_checks_source"
+      ],
+      "outputs": {
+        "foot_left": {
+          "path": "generated/foot_left.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "foot_right": {
+          "path": "generated/foot_right.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "pad_references": {
+          "path": "generated/pad_references.brep",
+          "kind": "brep",
+          "solids": 4
+        },
+        "feet_provenance": {
+          "path": "generated/feet_provenance.json",
+          "kind": "json"
+        },
+        "lower_with_feet": {
+          "path": "generated/lower_with_feet.brep",
+          "kind": "brep",
+          "solids": 1
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "lower_single_rear",
+      "adapter": "lower_cold_source",
+      "entrypoint": "integrate_rear",
+      "needs": [
+        "lower_with_feet",
+        "rear_lower",
+        "j6_accepted",
+        "geometry_checks_source",
+        "ventilation_adapter_source",
+        "keyboard_stage_source",
+        "ventilation_parameters_source"
+      ],
+      "outputs": {
+        "lower_final": {
+          "path": "generated/lower_final.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "lower_rear_provenance": {
+          "path": "generated/lower_rear_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "keyboard_profiles",
+      "adapter": "keyboard_feeder_source",
+      "entrypoint": "build_profiles",
+      "needs": [
+        "v09_reference",
+        "layout",
+        "parameters_source",
+        "geometry_checks_source"
+      ],
+      "outputs": {
+        "keyboard_profiles": {
+          "path": "generated/keyboard_profiles.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "keyboard_segments": {
+          "path": "generated/keyboard_segments.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "keyboard_node_catalog",
+      "adapter": "keyboard_feeder_source",
+      "entrypoint": "build_catalog",
+      "needs": [
+        "keyboard_profiles",
+        "keyboard_segments",
+        "parameters_source",
+        "geometry_checks_source"
+      ],
+      "outputs": {
+        "keyboard_nodes": {
+          "path": "generated/keyboard_nodes.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "keyboard_replacement",
+      "adapter": "keyboard_stage_source",
+      "entrypoint": "build_keyboard",
+      "needs": [
+        "keyboard_profiles",
+        "keyboard_segments",
+        "keyboard_nodes",
+        "keyboard_geometry_source",
+        "geometry_checks_source"
+      ],
+      "owns_enter": false,
+      "outputs": {
+        "keyboard_replaced": {
+          "path": "generated/keyboard_replaced.brep",
+          "kind": "brep",
+          "solids": 1,
+          "defer_bop": "NOT_RUN_RESOURCE_PRECAUTION"
+        },
+        "keyboard_provenance": {
+          "path": "generated/keyboard_provenance.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "id": "ventilation_frames",
+      "adapter": "upper_feeders_source",
+      "entrypoint": "build_ventilation_frames",
+      "needs": [
+        "parameters_source",
+        "ventilation_source",
+        "ventilation_layout"
+      ],
+      "owns_enter": false,
+      "outputs": {
+        "vent_frames": {
+          "path": "generated/vent_frames.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "vent_frames_provenance": {
+          "path": "generated/vent_frames_provenance.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "id": "enter_support",
+      "adapter": "enter_feeder_adapter",
+      "entrypoint": "build_enter",
+      "needs": [
+        "v09_reference",
+        "enter_supported_reference"
+      ],
+      "outputs": {
+        "enter_original": {
+          "path": "enter/enter_original.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "enter_supported": {
+          "path": "enter/enter_supported.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "enter_addition": {
+          "path": "enter/enter_addition.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "enter_provenance": {
+          "path": "enter/enter_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "envelopes",
+      "adapter": "upper_feeders_source",
+      "entrypoint": "build_envelopes",
+      "needs": [
+        "parameters_source"
+      ],
+      "outputs": {
+        "outer_volume": {
+          "path": "generated/outer_volume.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "inner_volume": {
+          "path": "generated/inner_volume.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "raw_shell": {
+          "path": "generated/raw_shell.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "outer_plan": {
+          "path": "generated/outer_plan.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "inner_plan": {
+          "path": "generated/inner_plan.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "envelopes_provenance": {
+          "path": "generated/envelopes_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_foundation",
+      "adapter": "upper_feeders_source",
+      "entrypoint": "build_foundation",
+      "needs": [
+        "parameters_source",
+        "ventilation_source",
+        "ventilation_layout",
+        "outer_volume",
+        "inner_volume",
+        "raw_shell",
+        "inner_plan",
+        "foundation_rear_snapshot",
+        "foundation_j6_snapshot",
+        "foundation_v09_upper_snapshot",
+        "keyboard_profiles",
+        "vent_frames"
+      ],
+      "outputs": {
+        "upper_foundation": {
+          "path": "generated/upper_foundation.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_foundation_provenance": {
+          "path": "generated/upper_foundation_provenance.json",
+          "kind": "json"
+        },
+        "upper_g_overlap_mask": {
+          "path": "generated/upper_g_overlap_mask.brep",
+          "kind": "brep_compound"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_perimeter",
+      "adapter": "upper_reinforcement_source",
+      "entrypoint": "build_perimeter",
+      "needs": [
+        "inner_volume",
+        "inventory",
+        "lower_grid",
+        "upper_foundation"
+      ],
+      "outputs": {
+        "upper_perimeter": {
+          "path": "generated/upper_perimeter.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_perimeter_provenance": {
+          "path": "generated/upper_perimeter_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_bosses",
+      "adapter": "upper_reinforcement_source",
+      "entrypoint": "integrate_bosses",
+      "needs": [
+        "lower_grid",
+        "shallow_cap",
+        "upper_foundation",
+        "upper_perimeter"
+      ],
+      "outputs": {
+        "upper_bosses": {
+          "path": "generated/upper_bosses.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_bosses_provenance": {
+          "path": "generated/upper_bosses_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_chip_grid",
+      "adapter": "upper_reinforcement_source",
+      "entrypoint": "build_chip_grid",
+      "needs": [
+        "inner_volume",
+        "inventory",
+        "upper_bosses",
+        "ventilation_layout"
+      ],
+      "outputs": {
+        "chip_masks": {
+          "path": "generated/chip_masks.brep",
+          "kind": "brep_compound"
+        },
+        "chip_network": {
+          "path": "generated/chip_network.brep",
+          "kind": "brep_compound"
+        },
+        "upper_chip_grid": {
+          "path": "generated/upper_chip_grid.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_chip_grid_provenance": {
+          "path": "generated/upper_chip_grid_provenance.json",
+          "kind": "json"
+        },
+        "chip_plan": {
+          "path": "generated/chip_plan.brep",
+          "kind": "brep_faces"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_constructive_roots",
+      "adapter": "upper_root_adapter_source",
+      "entrypoint": "constructive",
+      "needs": [
+        "upper_chip_grid",
+        "chip_masks",
+        "lower_grid",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "upper_constructive": {
+          "path": "generated/upper_constructive.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_constructive_report": {
+          "path": "generated/upper_constructive_report.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_g_invariant",
+      "adapter": "g_front_adapter_source",
+      "entrypoint": "g_invariant",
+      "needs": [
+        "upper_constructive",
+        "lower_grid",
+        "geometry_checks_source",
+        "keyboard_stage_source",
+        "upper_g_overlap_mask",
+        "upper_root_adapter_source"
+      ],
+      "outputs": {
+        "upper_g_checked": {
+          "path": "generated/upper_g_checked.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_g_report": {
+          "path": "generated/upper_g_report.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_chip_roots",
+      "adapter": "upper_root_adapter_source",
+      "entrypoint": "chip_roots",
+      "needs": [
+        "upper_g_checked",
+        "chip_network",
+        "chip_plan",
+        "chip_masks",
+        "chip_root_recipe"
+      ],
+      "outputs": {
+        "upper_roots": {
+          "path": "generated/upper_roots.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_chip_root_report": {
+          "path": "generated/upper_chip_root_report.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_details",
+      "adapter": "upper_reinforcement_source",
+      "entrypoint": "build_details",
+      "needs": [
+        "enter_addition",
+        "enter_original",
+        "enter_supported",
+        "inventory",
+        "lower_grid",
+        "upper_roots"
+      ],
+      "outputs": {
+        "upper_details_provenance": {
+          "path": "generated/upper_details_provenance.json",
+          "kind": "json"
+        },
+        "upper_late": {
+          "path": "generated/upper_late.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "front_transition": {
+          "path": "generated/front_transition.brep",
+          "kind": "brep",
+          "solids": 1
+        }
+      },
+      "owns_enter": true
+    },
+    {
+      "id": "upper_spatial_blend",
+      "adapter": "upper_feeders_source",
+      "entrypoint": "build_spatial_blend",
+      "needs": [
+        "parameters_source",
+        "outer_volume",
+        "inner_volume",
+        "upper_late",
+        "lower_final",
+        "inventory"
+      ],
+      "owns_enter": false,
+      "outputs": {
+        "outer_blended": {
+          "path": "generated/outer_blended.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "inner_blended": {
+          "path": "generated/inner_blended.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "blended_shell": {
+          "path": "generated/blended_shell.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_spatial_blend": {
+          "path": "generated/upper_spatial_blend.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "spatial_blend_provenance": {
+          "path": "generated/spatial_blend_provenance.json",
+          "kind": "json"
+        }
+      }
+    },
+    {
+      "id": "upper_slope_roots",
+      "adapter": "slope_only_adapter",
+      "entrypoint": "slope_roots",
+      "needs": [
+        "upper_spatial_blend",
+        "chip_network",
+        "chip_plan",
+        "chip_masks",
+        "inner_volume",
+        "slope_root_registry",
+        "slope_root_source",
+        "root_geometric_registry",
+        "root_registry_matcher_source",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "upper_sloped": {
+          "path": "generated/upper_sloped.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "slope_additions": {
+          "path": "generated/slope_additions.brep",
+          "kind": "brep_collection",
+          "solids": 50
+        },
+        "slope_root_report": {
+          "path": "generated/slope_root_report.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_j6_surround",
+      "adapter": "upper_root_adapter_source",
+      "entrypoint": "repair_surround",
+      "needs": [
+        "upper_sloped",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "upper_surround": {
+          "path": "generated/upper_surround.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "j6_surround_addition": {
+          "path": "generated/j6_surround_addition.brep",
+          "kind": "brep_compound"
+        },
+        "j6_surround_report": {
+          "path": "generated/j6_surround_report.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_single_rear",
+      "adapter": "upper_root_adapter_source",
+      "entrypoint": "single_rear",
+      "needs": [
+        "upper_surround",
+        "rear_upper",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "upper_single_rear": {
+          "path": "generated/upper_single_rear.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "upper_rear_report": {
+          "path": "generated/upper_rear_report.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_din",
+      "adapter": "upper_final_adapter_source",
+      "entrypoint": "build_din",
+      "needs": [
+        "upper_single_rear",
+        "inventory",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "upper_din": {
+          "path": "generated/upper_din.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "din_cutter": {
+          "path": "generated/din_cutter.brep",
+          "kind": "brep",
+          "solids": 1
+        },
+        "din_provenance": {
+          "path": "generated/din_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_late_ownership",
+      "adapter": "upper_root_adapter_source",
+      "entrypoint": "late_ownership",
+      "needs": [
+        "upper_roots",
+        "upper_din",
+        "keyboard_nodes",
+        "keyboard_segments",
+        "slope_additions",
+        "enter_addition",
+        "front_transition",
+        "j6_surround_addition",
+        "din_cutter",
+        "spatial_blend_provenance",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "late_ownership": {
+          "path": "generated/late_ownership.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "upper_keyboard_transfer",
+      "adapter": "upper_final_adapter_source",
+      "entrypoint": "transfer_keyboard",
+      "needs": [
+        "upper_din",
+        "upper_roots",
+        "keyboard_profiles",
+        "keyboard_replaced",
+        "keyboard_nodes",
+        "keyboard_segments",
+        "enter_original",
+        "enter_supported",
+        "late_ownership",
+        "geometry_checks_source",
+        "keyboard_stage_source"
+      ],
+      "outputs": {
+        "upper_final": {
+          "path": "generated/upper_final.brep",
+          "kind": "brep",
+          "solids": 1,
+          "defer_bop": "NOT_RUN_RESOURCE_PRECAUTION"
+        },
+        "upper_transfer_provenance": {
+          "path": "generated/upper_transfer_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    },
+    {
+      "id": "document_export",
+      "adapter": "document_export_source",
+      "entrypoint": "build_stage",
+      "needs": [
+        "lower_final",
+        "upper_final",
+        "j6_accepted",
+        "foot_left",
+        "foot_right",
+        "parameters_source",
+        "pad_references",
+        "export_proxy_source",
+        "export_worker_source",
+        "canonical_mesh_source",
+        "zero_area_filter_source",
+        "canonical_mesh_config",
+        "release_checks_source"
+      ],
+      "outputs": {
+        "model": {
+          "path": "generated/model.FCStd",
+          "kind": "fcstd",
+          "objects": {
+            "LowerShell": 1,
+            "UpperShell": 1,
+            "J6Hatch": 1,
+            "FoldFootLeft": 1,
+            "FoldFootRight": 1
+          },
+          "deferred_object_bop": {
+            "UpperShell": "upper_final"
+          }
+        },
+        "lower_stl": {
+          "path": "generated/lower_stl.stl",
+          "kind": "stl"
+        },
+        "upper_stl": {
+          "path": "generated/upper_stl.stl",
+          "kind": "stl"
+        },
+        "hatch_stl": {
+          "path": "generated/hatch_stl.stl",
+          "kind": "stl"
+        },
+        "left_foot_stl": {
+          "path": "generated/left_foot_stl.stl",
+          "kind": "stl"
+        },
+        "right_foot_stl": {
+          "path": "generated/right_foot_stl.stl",
+          "kind": "stl"
+        },
+        "export_provenance": {
+          "path": "generated/export_provenance.json",
+          "kind": "json"
+        }
+      },
+      "owns_enter": false
+    }
+  ],
+  "checks": [],
+  "deliverables": [
+    "model",
+    "lower_stl",
+    "upper_stl",
+    "hatch_stl",
+    "left_foot_stl",
+    "right_foot_stl"
+  ]
+}

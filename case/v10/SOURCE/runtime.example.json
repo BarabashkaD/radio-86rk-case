@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ABSOLUTE_PATH_TO_YOUR_TRUSTED_FREECAD_PYTHON_OR_WRAPPER"
+  ],
+  "command_sha256": "EXPLICIT_SHA256_OF_FREECAD_COMMAND_EXECUTABLE",
+  "timeout_seconds": 3600,
+  "gmsh_binary": "ABSOLUTE_PATH_TO_YOUR_GMSH_BINARY",
+  "gmsh_sha256": "EXPLICIT_SHA256_OF_LOCAL_GMSH",
+  "gmsh_command": [
+    "ABSOLUTE_PATH_TO_YOUR_GMSH_BINARY"
+  ],
+  "gmsh_command_sha256": "EXPLICIT_SHA256_OF_COMMAND_EXECUTABLE"
+}
