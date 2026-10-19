@@ -1,0 +1,495 @@
+{
+  "method": "explicit flat quarter-circle roots plus addressed sloped roots",
+  "radius": 0.6,
+  "flat_profiles": 81,
+  "sloped_attempts": [
+    {
+      "point": [
+        268.89999999999986,
+        -86.22427590831764,
+        25.41592611703769
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        253.42630746605545,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        262.9360575369812,
+        -82.20364185267269,
+        29.43656017268267
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        271.69999999999993,
+        -87.41820693123823,
+        24.2219950941171
+      ],
+      "status": "PASS"
+    },
+    {
+      "point": [
+        277.4910737671268,
+        -90.60698439120661,
+        24.336458109780985
+      ],
+      "status": "FAILED",
+      "error": "BOP check found the following errors:\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\nError in Edge: BOPAlgo_InvalidCurveOnSurface\nError in Face: BOPAlgo_InvalidCurveOnSurface\n"
+    },
+    {
+      "point": [
+        277.7306740806923,
+        -88.66685672765898,
+        25.237355288787317
+      ],
+      "status": "PASS"
+    },
+    {
+      "point": [
+        276.10434705215295,
+        -87.7278963799414,
+        23.912305645413944
+      ],
+      "status": "FAILED",
+      "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n"
+    },
+    {
+      "point": [
+        274.49999999999994,
+        -86.22427590831768,
+        25.41592611703765
+      ],
+      "status": "FAILED",
+      "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n"
+    },
+    {
+      "point": [
+        280.46394246301884,
+        -82.20364185267267,
+        29.43656017268266
+      ],
+      "status": "FAILED",
+      "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n"
+    },
+    {
+      "point": [
+        284.25199028464976,
+        -77.9381504540682,
+        33.499776890758376
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        277.2639424630188,
+        -81.9727017449969,
+        29.667500280358468
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        271.69999999999993,
+        -85.03034488539708,
+        26.60985713995824
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        266.1360575369811,
+        -81.97270174499681,
+        29.667500280358546
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        257.02630746605547,
+        -76.7131850892977,
+        34.15193263408126
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        198.37369253394445,
+        -76.71318508929768,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        189.2639424630188,
+        -81.97270174499687,
+        29.66750028035846
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        192.46394246301878,
+        -82.2036418526727,
+        29.436560172682622
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        201.97369253394447,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        183.7,
+        -85.0303448853971,
+        26.60985713995823
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        186.5,
+        -86.22427590831768,
+        25.415926117037653
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        178.13605753698124,
+        -81.97270174499688,
+        29.667500280358453
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        169.0263074660554,
+        -76.71318508929767,
+        34.15193263408128
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        174.93605753698122,
+        -82.20364185267272,
+        29.43656017268263
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        165.42630746605548,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        180.89999999999995,
+        -86.22427590831768,
+        25.415926117037646
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        183.69999999999996,
+        -87.41820693123825,
+        24.22199509411708
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        110.37369253394456,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        101.26394246301882,
+        -81.97270174499688,
+        29.667500280358453
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        104.46394246301877,
+        -82.20364185267275,
+        29.436560172682597
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        113.97369253394452,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        95.69999999999996,
+        -85.03034488539714,
+        26.60985713995818
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        98.50000000000007,
+        -86.22427590831772,
+        25.4159261170376
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        90.13605753698121,
+        -81.97270174499685,
+        29.6675002803585
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        81.02630746605547,
+        -76.71318508929767,
+        34.15193263408128
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        86.93605753698124,
+        -82.2036418526727,
+        29.436560172682633
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        77.42630746605553,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        92.89999999999999,
+        -86.22427590831768,
+        25.41592611703765
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        95.69999999999999,
+        -87.41820693123827,
+        24.22199509411705
+      ],
+      "status": "FAILED",
+      "error": "Unorientable shape\nUnorientable shape\nNo error\nNo error\n"
+    },
+    {
+      "point": [
+        16.463942463018796,
+        -82.20364185267272,
+        29.43656017268262
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        25.97369253394452,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        22.373692533944556,
+        -76.71318508929767,
+        34.15193263408127
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        13.263942463018846,
+        -81.97270174499687,
+        29.667500280358478
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        10.500000000000057,
+        -86.22427590831768,
+        25.41592611703765
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        7.700000000000042,
+        -85.03034488539708,
+        26.60985713995824
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        2.136057536981258,
+        -81.97270174499685,
+        29.667500280358492
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        -4.851990284649781,
+        -77.9381504540682,
+        33.49977689075838
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        -1.0639424630187069,
+        -82.20364185267272,
+        29.436560172682622
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        -7.00246143401003,
+        -78.77503632618317,
+        32.8511544927203
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        4.900000000000006,
+        -86.22427590831767,
+        25.41592611703767
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        1.669325919307684,
+        -88.66685672765898,
+        25.2373552887873
+      ],
+      "status": "PASS"
+    },
+    {
+      "point": [
+        3.295652947847052,
+        -87.72789637994141,
+        23.912305645413912
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        1.9089262328731975,
+        -90.60698439120665,
+        24.336458109780956
+      ],
+      "status": "PASS"
+    },
+    {
+      "point": [
+        7.700000000000017,
+        -87.41820693123825,
+        24.22199509411708
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    },
+    {
+      "point": [
+        -7.278231225037394,
+        -77.06443703086782,
+        33.99532188130035
+      ],
+      "status": "FAILED",
+      "error": "15StdFail_NotDone BRep_API: command not done"
+    }
+  ],
+  "sloped_candidates": 58,
+  "valid": true,
+  "solids": 1,
+  "BOP": "PASS",
+  "volume": 162660.51905174096,
+  "remaining_failed_sloped": 50
+}
