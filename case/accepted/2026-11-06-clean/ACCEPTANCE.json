@@ -1,0 +1,61 @@
+{
+ "accepted_at": "2026-11-06T20:53:37+02:00",
+ "round_uuid": "3a14355e-d42e-41f1-85f8-150ec50fb21d",
+ "user_decision": "«да всё отлично» — ответ на вопрос координатора «примем кандидата 2 как текущую версию?» (06.11.2026, 20:53)",
+ "file": "Radio86rk-FULL-ACCEPTED-2026-11-06-CLEAN.FCStd",
+ "sha256": "97dce455df88f7f6d51b70b9b803a53c2e82efca5e5afe93dedc5f95a970d306",
+ "source_round": "CAD-REVIEW-2026-11-04/fcstd-cleanup-b5d9aa54-a5fd-4589-9c55-d860896e079b (кандидат 2) — в архиве <Радио86-РК>/CAD-REVIEW-2026-11-04/",
+ "previous_accepted": {
+  "folder": "архив вне репозитория: <Радио86-РК>/case-radio86rk-v6/accepted-baselines/199d6096-553a-4d74-a545-84c86a24078a",
+  "file": "Radio86rk-FULL-ACCEPTED-2026-11-06-LATCH7.FCStd",
+  "sha256": "5f2a980866256283a0c409e086bc96471f651a63570c3da3ee085687d1132261",
+  "note": "содержит полную историю построений; остаётся архивом истории"
+ },
+ "changes": [
+  "история построений удалена: 677 → 415 объектов, 157,2 → 20,36 МБ; SourceBody удалён у Case и 4 ножек",
+  "одна анимация «Ножки — совместное раскрытие» вместо четырёх: 0–7 с большие 2,0410350821 рад, 7–14 с малые до касания днища 0,20688180923461916 рад",
+  "шарнирам возвращены ViewProviderJoint/ViewProviderGroundedJoint (в предыдущей версии анимация в GUI давала ошибки)",
+  "тела-цели ссылок верха и крышечки собраны в группу «Тела верха и крышечки (цели ссылок)»"
+ ],
+ "geometry": "все 384 тела равны предыдущей принятой версии (тела, грани, V, S, bb, Placement до 1e-4); детали в BREP/STL не менялись — см. parts предыдущей версии",
+ "parts_unchanged_from": "BREP/STL деталей в git не хранятся: выгружаются из этого FCStd в .build/parts/<sha12>/ (tools/extract_parts.py) с проверкой по parts-manifest.json",
+ "u25_baseline": "U25-BASELINE-2026-11-06.json (копия; геометрия не менялась)",
+ "checks": {
+  "shapes_vs_previous": "384/384",
+  "board_vs_radio-86rk-case": "267/267",
+  "gui_playback_422_frames_joint_redraw_errors": 0,
+  "headless_frames": 422,
+  "left_right_sync_max_dev": 1.9e-16,
+  "angle_err_rad": 3e-10,
+  "small_stop_contact_mm3": 9.76e-05
+ },
+ "known_open": [
+  "фаза 1: большая ножка входит в корпус до ~0,22 мм³ на 0,02–0,6 рад (данные исполнителя, не перепроверены)",
+  "малая ножка пересекается с большой на 0,36–0,45 мм³ при повороте 0,1–0,7 рад",
+  "303 объекта сохранены как Touched ещё в источнике"
+ ],
+ "status": "принятая версия (не manufacturing release)",
+ "accepted_folder_in_archive": "архив вне репозитория: <Радио86-РК>/case-radio86rk-v6/accepted-baselines/3a14355e-d42e-41f1-85f8-150ec50fb21d",
+ "moved_to_repository": {
+  "date": "2026-11-06",
+  "path": "case/accepted/2026-11-06-clean/",
+  "evidence_left_in_archive": [
+   "result.json (журнал GUI-макроса)",
+   "candidate2-dump.json (числа всех объектов)",
+   "LOCAL-PLAN.md"
+  ]
+ },
+ "provenance_paths_cleaned": {
+  "date": "2026-11-06",
+  "user_request": "«почисти пути в FCStd»",
+  "what": "15 строковых свойств о происхождении (SourceNativeFile, SourceEditableHistoryFile, IntegrationReproductionScript, *EditableCandidate, R39ExactInputSnapshot) — абсолютный путь архива заменён на «<архив>/»",
+  "method": "замена текста только в Document.xml внутри FCStd; остальные 847 из 848 файлов архива побайтно те же",
+  "sha256_before": "ecd251bb56cac38fa11546ec64657e4c747190ca61e7a4f1a37e0601b69f14cf",
+  "archive_copy_with_paths": "<архив>/case-radio86rk-v6/accepted-baselines/3a14355e-d42e-41f1-85f8-150ec50fb21d",
+  "checks": {
+   "shapes_vs_accepted": "384/384",
+   "check_private": "0 находок",
+   "gui_gate": "415 объектов, 279 видимых, 422 кадра без ошибок перерисовки"
+  }
+ }
+}

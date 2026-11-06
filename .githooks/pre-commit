@@ -1,0 +1,10 @@
+#!/bin/sh
+# Block personal data (home paths, e-mails) in staged files, including inside FCStd/3mf archives.
+# Enable once per clone:  git config core.hooksPath .githooks
+root=$(git rev-parse --show-toplevel)
+py=python3
+if [ -f "$root/tools/local.env" ]; then
+  CAD_PY=$(sed -n 's/^CAD_PY=//p' "$root/tools/local.env")
+  [ -x "$CAD_PY" ] && py=$CAD_PY
+fi
+exec "$py" -I "$root/tools/check_private.py" --staged

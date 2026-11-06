@@ -1,0 +1,38 @@
+{
+ "strip": {
+  "replaced_plain": 10,
+  "replaced_escaped": 5,
+  "absolute_left": [],
+  "entries": 848,
+  "entries_same_order": true,
+  "changed_entries": [
+   "Document.xml"
+  ],
+  "doc_len_before": 1503194,
+  "doc_len_after": 1502664
+ },
+ "gui_gate": {
+  "ok": true,
+  "objects": 415,
+  "visible": 279,
+  "joints": {
+   "CaseGround": "ViewProviderGroundedJoint",
+   "CaseBigRevoluteX": "ViewProviderJoint",
+   "BigSmallRevoluteX": "ViewProviderJoint",
+   "RightCaseBigRevoluteX": "ViewProviderJoint",
+   "RightBigSmallRevoluteX": "ViewProviderJoint"
+  },
+  "sim": [
+   "Ножки — совместное раскрытие",
+   "Simulation",
+   "ViewProviderSimulation"
+  ],
+  "frames": 422,
+  "redraw_errors": [],
+  "props": {
+   "SourceNativeFile": "<архив>/BAMBU-HANDOFF-2026-11-02/UPPER-TRIANGULAR-WEB-STUDY/530b8d42-231f-4052-b",
+   "IntegrationReproductionScript": "<архив>/print-preparation-2026-11-02/main-pocket-integration/worker/build.py"
+  },
+  "nav": "Gui::GestureNavigationStyle"
+ }
+}

@@ -1,4 +1,11 @@
+@AGENTS.md
+
 # radio-86rk-case — working notes for agents
+
+`AGENTS.md` (imported above, also read by Codex) holds the rules for the **case**
+(`case/`): accepted versions, FreeCAD launch, project numbers. The notes below are
+about the **computer model** (`model/`, `tools/build_caps.py`, `tools/verify.py`)
+and the FreeCAD traps that apply to both.
 
 What this project *is*: see [README.md](README.md). This file is how to **work
 in it**.
@@ -11,10 +18,13 @@ This repo never commits to it, and check E enforces that.
     keycaps.tsv     one row per key size: which model file, how wide
     params.tsv      derived scalars, each with a column recording how it was measured
     model/          the tracked deliverable — the assembled project, the envelope, the references
-    tools/          everything runnable
+    case/           the enclosure: case/CURRENT.path → accepted version, policies, project state (see AGENTS.md)
+    tools/          everything runnable (case: fcq, extract_parts.py, parts_check.py)
     vendor/         the keycap solids, verbatim as received
 
 ## One interpreter
+
+For the **case**, run FreeCAD only through `tools/fcq script.py` (CAD-AI profile, quiet, `RESULT` line; see AGENTS.md). The commands below are the computer-model tools.
 
 Everything runs under FreeCAD's console binary. There is no `freecadcmd` on
 `PATH` on macOS; the path below is the console binary, and reaching for the
@@ -26,9 +36,10 @@ system Python will not work — this repo needs FreeCAD's `Part` module.
     $FC tools/verify.py       # the gate, 11 checks
     $FC tools/measure.py seat # re-derive seat_dz after a cap profile change
 
-Two steps need a GUI FreeCAD instance driven by the FreeCAD MCP, because
-KiCadStepUp and viewport rendering both refuse to load under the console
-binary. **Put this repo on `sys.path` first** — a spawned instance does not
+Two steps need a GUI FreeCAD instance, because KiCadStepUp and viewport
+rendering both refuse to load under the console binary. Run them as a separate
+GUI-macro process (skill `freecad-gui-macro`, launcher `FREECAD_GUI_LAUNCHER`
+from `tools/local.env`); the FreeCAD MCP is only for the user's own open window. **Put this repo on `sys.path` first** — a spawned instance does not
 start here, and observed working directories have included two unrelated repos:
 
     import sys; sys.path.insert(0, "<path to radio-86rk-case>")

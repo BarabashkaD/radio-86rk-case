@@ -21,3 +21,16 @@ __pycache__/
 *.FCStd1
 *.FCBak
 .FreeCAD-recovery*
+
+# --- Корпус (case/) ---
+# Выгруженные детали корпуса (BREP/STL/STEP) — производные от принятого FCStd,
+# создаются по мере надобности tools/extract_parts.py вместе с parts-manifest.json.
+# Уже покрыто строкой .build/, указано явно, чтобы правило было видно.
+.build/parts/
+# Рабочие раунды CAD (LOCAL-PLAN, evidence, промежуточные FCStd)
+case/rounds/
+# Экспорт сетки — всегда из FCStd
+*.stl
+*.STL
+# Пути этой машины
+tools/local.env

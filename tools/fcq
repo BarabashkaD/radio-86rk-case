@@ -1,0 +1,15 @@
+#!/bin/zsh
+# Quiet headless FreeCAD for agents: runs the launcher named in tools/local.env (FREECAD_LAUNCHER),
+# drops the startup banner, console progress "(NN %)" and blank lines (freecadcmd has no flag for that).
+# The launcher's exit code is kept. Stopping this wrapper (TERM/INT/HUP) also stops its own child processes.
+# A script run through it prints one line "RESULT {json}"; judge a run by that line, not by exit code 0.
+here=${0:A:h}
+[[ -f $here/local.env ]] || { print -u2 "fcq: $here/local.env missing (copy tools/local.env.example)"; exit 2; }
+source $here/local.env
+[[ -x ${FREECAD_LAUNCHER:-} ]] || { print -u2 "fcq: FREECAD_LAUNCHER not executable: ${FREECAD_LAUNCHER:-unset}"; exit 2; }
+trap 'pkill -TERM -P $$ 2>/dev/null; exit 143' TERM INT HUP
+"$FREECAD_LAUNCHER" "$@" 2>&1 \
+  | tr '\r\t' '\n ' \
+  | grep --line-buffered -v -E '^ *\([0-9]+ %\) *$|^FreeCAD [0-9]+\.[0-9]|^\(C\) 20[0-9-]+ FreeCAD|^FreeCAD is free and open-source|^ *$' &
+wait $!
+exit ${pipestatus[1]:-$?}

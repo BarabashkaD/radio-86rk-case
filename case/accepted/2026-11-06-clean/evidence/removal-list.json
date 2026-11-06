@@ -1,0 +1,2307 @@
+{
+ "note": "Порядок исполнения сверху вниз. recompute не вызывать (кроме этапа 5: только объекты симуляции). cascade-строки — объекты, которые FreeCAD удаляет сам вместе с указанным; если объекта уже нет, пропустить.",
+ "items": [
+  {
+   "stage": "0b",
+   "action": "removeProperty",
+   "name": "Case",
+   "label": "Нижняя часть корпуса",
+   "type": "Part::Feature",
+   "property": "SourceBody",
+   "old_value": "LowerBody",
+   "old_status": [
+    21,
+    24
+   ],
+   "has_after": false
+  },
+  {
+   "stage": "0b",
+   "action": "removeProperty",
+   "name": "Big",
+   "label": "Левая большая ножка",
+   "type": "Part::Feature",
+   "property": "SourceBody",
+   "old_value": "BigBody",
+   "old_status": [
+    21
+   ],
+   "has_after": false
+  },
+  {
+   "stage": "0b",
+   "action": "removeProperty",
+   "name": "Small",
+   "label": "Левая малая ножка",
+   "type": "Part::Feature",
+   "property": "SourceBody",
+   "old_value": "SmallBody",
+   "old_status": [
+    21
+   ],
+   "has_after": false
+  },
+  {
+   "stage": "0b",
+   "action": "removeProperty",
+   "name": "RightBig",
+   "label": "Правая большая ножка",
+   "type": "Part::Feature",
+   "property": "SourceBody",
+   "old_value": "BigBody",
+   "old_status": [
+    21
+   ],
+   "has_after": false
+  },
+  {
+   "stage": "0b",
+   "action": "removeProperty",
+   "name": "RightSmall",
+   "label": "Правая малая ножка",
+   "type": "Part::Feature",
+   "property": "SourceBody",
+   "old_value": "SmallBody",
+   "old_status": [
+    21
+   ],
+   "has_after": false
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "removeObject",
+   "name": "BigBody",
+   "label": "BigBody",
+   "type": "PartDesign::Body"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "Origin038",
+   "label": "Origin038",
+   "type": "App::Point"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "Origin039",
+   "label": "Origin051",
+   "type": "App::Origin"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "XY_Plane019",
+   "label": "XY-plane019",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "XZ_Plane019",
+   "label": "XZ-plane019",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "X_Axis019",
+   "label": "X-axis019",
+   "type": "App::Line"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "YZ_Plane019",
+   "label": "YZ-plane019",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "Y_Axis019",
+   "label": "Y-axis019",
+   "type": "App::Line"
+  },
+  {
+   "stage": 1,
+   "order": 1,
+   "action": "cascade (removed automatically with BigBody; skip if absent)",
+   "name": "Z_Axis019",
+   "label": "Z-axis019",
+   "type": "App::Line"
+  },
+  {
+   "stage": 1,
+   "order": 2,
+   "action": "removeObject",
+   "name": "BigShortStop545Straight",
+   "label": "BigShortStop545Straight",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 3,
+   "action": "removeObject",
+   "name": "Big_RailJunctionToleranceRepair",
+   "label": "Big_RailJunctionToleranceRepair",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 4,
+   "action": "removeObject",
+   "name": "Big_OutwardPinEndRimsR03",
+   "label": "Big_OutwardPinEndRimsR03",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 5,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E568",
+   "label": "Big_R03Extension_E568",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 6,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E483",
+   "label": "Big_R03Extension_E483",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 7,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E452",
+   "label": "Big_R03Extension_E452",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 8,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E393",
+   "label": "Big_R03Extension_E393",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 9,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E388",
+   "label": "Big_R03Extension_E388",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 10,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E190",
+   "label": "Big_R03Extension_E190",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 11,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E112",
+   "label": "Big_R03Extension_E112",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 12,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E64",
+   "label": "Big_R03Extension_E64",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 13,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E30",
+   "label": "Big_R03Extension_E30",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 14,
+   "action": "removeObject",
+   "name": "Big_R03Extension_E11",
+   "label": "Big_R03Extension_E11",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 15,
+   "action": "removeObject",
+   "name": "Big_FrozenSolidBushingSource",
+   "label": "Big_FrozenSolidBushingSource",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "removeObject",
+   "name": "SmallBody",
+   "label": "SmallBody",
+   "type": "PartDesign::Body"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "Origin040",
+   "label": "Origin052",
+   "type": "App::Point"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "Origin041",
+   "label": "Origin053",
+   "type": "App::Origin"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "XY_Plane020",
+   "label": "XY-plane020",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "XZ_Plane020",
+   "label": "XZ-plane020",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "X_Axis020",
+   "label": "X-axis020",
+   "type": "App::Line"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "YZ_Plane020",
+   "label": "YZ-plane020",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "Y_Axis020",
+   "label": "Y-axis020",
+   "type": "App::Line"
+  },
+  {
+   "stage": 1,
+   "order": 16,
+   "action": "cascade (removed automatically with SmallBody; skip if absent)",
+   "name": "Z_Axis020",
+   "label": "Z-axis020",
+   "type": "App::Line"
+  },
+  {
+   "stage": 1,
+   "order": 17,
+   "action": "removeObject",
+   "name": "Small_RailJunctionToleranceRepair",
+   "label": "Small_RailJunctionToleranceRepair",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 18,
+   "action": "removeObject",
+   "name": "Small_OutwardPinEndRimsR03",
+   "label": "Small_OutwardPinEndRimsR03",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 19,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E497",
+   "label": "Small_R03Extension_E497",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 20,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E453",
+   "label": "Small_R03Extension_E453",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 21,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E411",
+   "label": "Small_R03Extension_E411",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 22,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E375",
+   "label": "Small_R03Extension_E375",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 23,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E362",
+   "label": "Small_R03Extension_E362",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 24,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E150",
+   "label": "Small_R03Extension_E150",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 25,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E117",
+   "label": "Small_R03Extension_E117",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 26,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E91",
+   "label": "Small_R03Extension_E91",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 27,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E32",
+   "label": "Small_R03Extension_E32",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 28,
+   "action": "removeObject",
+   "name": "Small_R03Extension_E23",
+   "label": "Small_R03Extension_E23",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 29,
+   "action": "removeObject",
+   "name": "Small_FrozenSolidBushingSource",
+   "label": "Small_FrozenSolidBushingSource",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 1,
+   "order": 30,
+   "action": "removeObject",
+   "name": "FootDefinitions",
+   "label": "Ножки — исходники и построения",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 2,
+   "order": 1,
+   "action": "removeObject",
+   "name": "PocketTangentRectangles",
+   "label": "Касательные прямоугольники обоих карманов",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 2,
+   "order": 2,
+   "action": "removeObject",
+   "name": "TangentRectangleOutside",
+   "label": "Снаружи: 32 × 60 мм",
+   "type": "Sketcher::SketchObject"
+  },
+  {
+   "stage": 2,
+   "order": 3,
+   "action": "removeObject",
+   "name": "TangentRectangleInside",
+   "label": "Изнутри: 39,2 × 67,2 мм",
+   "type": "Sketcher::SketchObject"
+  },
+  {
+   "stage": 2,
+   "order": 4,
+   "action": "removeObject",
+   "name": "RightTangentRectangleOutside",
+   "label": "Правый карман — снаружи: 32 × 60 мм",
+   "type": "Sketcher::SketchObject"
+  },
+  {
+   "stage": 2,
+   "order": 5,
+   "action": "removeObject",
+   "name": "RightTangentRectangleInside",
+   "label": "Правый карман — изнутри: 39,2 × 67,2 мм",
+   "type": "Sketcher::SketchObject"
+  },
+  {
+   "stage": 2,
+   "order": 6,
+   "action": "removeObject",
+   "name": "LeftPocketReplacementDefinition",
+   "label": "R61 — сохранённые инструменты замены левого кармана",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 2,
+   "order": 7,
+   "action": "removeObject",
+   "name": "RightPocketReplacementDefinition",
+   "label": "R64 — инструменты правого кармана",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 2,
+   "order": 8,
+   "action": "removeObject",
+   "name": "CLowerIntegrationParameters",
+   "label": "C нижний — параметры, источники и текущие ссылки",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "removeObject",
+   "name": "LowerShellBody",
+   "label": "Нижняя крышка — локальное объединение",
+   "type": "PartDesign::Body"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "Origin",
+   "label": "Origin",
+   "type": "App::Origin"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "Origin001",
+   "label": "Origin001",
+   "type": "App::Point"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "XY_Plane",
+   "label": "XY-plane",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "XZ_Plane",
+   "label": "XZ-plane",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "X_Axis",
+   "label": "X-axis",
+   "type": "App::Line"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "YZ_Plane",
+   "label": "YZ-plane",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "Y_Axis",
+   "label": "Y-axis",
+   "type": "App::Line"
+  },
+  {
+   "stage": 2,
+   "order": 9,
+   "action": "cascade (removed automatically with LowerShellBody; skip if absent)",
+   "name": "Z_Axis",
+   "label": "Z-axis",
+   "type": "App::Line"
+  },
+  {
+   "stage": 2,
+   "order": 10,
+   "action": "removeObject",
+   "name": "CLowerInterfaceCoalescedFinal",
+   "label": "Низ — боковые сопряжения C и локальное объединение",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 11,
+   "action": "removeObject",
+   "name": "RightPocketReplacement",
+   "label": "Правый карман заменён принятой версией",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 12,
+   "action": "removeObject",
+   "name": "LeftPocketReplacement",
+   "label": "Левый карман заменён принятой версией",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 13,
+   "action": "removeObject",
+   "name": "AllPocketRemaindersFloorMerge",
+   "label": "Все пять оставшихся участков объединены с дном",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 14,
+   "action": "removeObject",
+   "name": "PocketFloorBranchIntegration",
+   "label": "Дно обоих карманов: правая разбивка и левое объединение",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 15,
+   "action": "removeObject",
+   "name": "FloorFaceUnion",
+   "label": "Дно: объединение новых участков изнутри и снаружи",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 16,
+   "action": "removeObject",
+   "name": "TwoLeftRootInnerPartition",
+   "label": "Две левые винтовые опоры — деление внутреннего дна",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 17,
+   "action": "removeObject",
+   "name": "TwoLeftRootFacePartition",
+   "label": "Две левые винтовые опоры — деление наружного дна",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 18,
+   "action": "removeObject",
+   "name": "VerticalTabPlaneCleanup",
+   "label": "Вертикальная плоскость: 5 граней → 1",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 19,
+   "action": "removeObject",
+   "name": "FrozenOriginalShape",
+   "label": "До объединения — 1364 грани",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 20,
+   "action": "removeObject",
+   "name": "LeftReplacementMask",
+   "label": "Граница замены X20..60 / Y−92..−24 / Z−15..1",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 21,
+   "action": "removeObject",
+   "name": "AcceptedLeftInsert",
+   "label": "Принятая вставка R59 — точный BRep",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 22,
+   "action": "removeObject",
+   "name": "LowerAfterLeftPocketRemoval",
+   "label": "Кэш: R58 после удаления левого кармана",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 23,
+   "action": "removeObject",
+   "name": "RightReplacementMask",
+   "label": "Граница X219.4..259.4 / Y−92..−24 / Z−15..1",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 24,
+   "action": "removeObject",
+   "name": "AcceptedRightInsert",
+   "label": "R63 — принятая правая вставка, жёсткий перенос",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 25,
+   "action": "removeObject",
+   "name": "LowerAfterRightPocketRemoval",
+   "label": "Кэш R62 после удаления правого кармана",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "removeObject",
+   "name": "LowerBody",
+   "label": "LowerBody",
+   "type": "PartDesign::Body"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "Origin036",
+   "label": "Origin049",
+   "type": "App::Point"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "Origin037",
+   "label": "Origin050",
+   "type": "App::Origin"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "XY_Plane018",
+   "label": "XY-plane018",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "XZ_Plane018",
+   "label": "XZ-plane018",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "X_Axis018",
+   "label": "X-axis018",
+   "type": "App::Line"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "YZ_Plane018",
+   "label": "YZ-plane018",
+   "type": "App::Plane"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "Y_Axis018",
+   "label": "Y-axis018",
+   "type": "App::Line"
+  },
+  {
+   "stage": 2,
+   "order": 26,
+   "action": "cascade (removed automatically with LowerBody; skip if absent)",
+   "name": "Z_Axis018",
+   "label": "Z-axis018",
+   "type": "App::Line"
+  },
+  {
+   "stage": 2,
+   "order": 27,
+   "action": "removeObject",
+   "name": "ClosedOuterRootR03Refined",
+   "label": "Pocket closed outer R0.3 — redundant seams removed",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 28,
+   "action": "removeObject",
+   "name": "ClosedOuterRootR03_199",
+   "label": "Pocket outer closed tangent root R0.3 — X+199.4",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 29,
+   "action": "removeObject",
+   "name": "ClosedOuterRootR03_0",
+   "label": "Pocket outer closed tangent root R0.3 — X+0",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 30,
+   "action": "removeObject",
+   "name": "LowerPCurveToleranceRepair",
+   "label": "Lower — local curve-on-surface tolerance repair",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 31,
+   "action": "removeObject",
+   "name": "RefineUnifiedLower",
+   "label": "Refine — unified lower body",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 32,
+   "action": "removeObject",
+   "name": "ContinuousLugRoots04",
+   "label": "ContinuousLugRoots04",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 33,
+   "action": "removeObject",
+   "name": "ContinuousLugRoots03",
+   "label": "ContinuousLugRoots03",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 34,
+   "action": "removeObject",
+   "name": "ContinuousLugRoots02",
+   "label": "ContinuousLugRoots02",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 35,
+   "action": "removeObject",
+   "name": "ContinuousLugRoots01",
+   "label": "ContinuousLugRoots01",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 36,
+   "action": "removeObject",
+   "name": "ThroughLugSeat04",
+   "label": "Through bearing seat R2.1 — lug 4",
+   "type": "PartDesign::SubtractiveCylinder"
+  },
+  {
+   "stage": 2,
+   "order": 37,
+   "action": "removeObject",
+   "name": "ThroughLugSeat03",
+   "label": "Through bearing seat R2.1 — lug 3",
+   "type": "PartDesign::SubtractiveCylinder"
+  },
+  {
+   "stage": 2,
+   "order": 38,
+   "action": "removeObject",
+   "name": "ThroughLugSeat02",
+   "label": "Through bearing seat R2.1 — lug 2",
+   "type": "PartDesign::SubtractiveCylinder"
+  },
+  {
+   "stage": 2,
+   "order": 39,
+   "action": "removeObject",
+   "name": "ThroughLugSeat01",
+   "label": "Through bearing seat R2.1 — lug 1",
+   "type": "PartDesign::SubtractiveCylinder"
+  },
+  {
+   "stage": 2,
+   "order": 40,
+   "action": "removeObject",
+   "name": "EightPocketCornersR1",
+   "label": "8 углов карманов R1 — без малых угловых выемок",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 41,
+   "action": "removeObject",
+   "name": "FourSupportedOpenLugs",
+   "label": "FourSupportedOpenLugs",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 42,
+   "action": "removeObject",
+   "name": "RemoveOriginalLugs",
+   "label": "RemoveOriginalLugs",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 43,
+   "action": "removeObject",
+   "name": "SourceLowerImmutable",
+   "label": "SourceLowerImmutable",
+   "type": "PartDesign::Feature"
+  },
+  {
+   "stage": 2,
+   "order": 44,
+   "action": "removeObject",
+   "name": "LowerDefinitions",
+   "label": "Низ — исходники и построения",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 1,
+   "action": "removeObject",
+   "name": "CIntegrationParameters",
+   "label": "C — параметры и неизменяемые источники",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 3,
+   "order": 2,
+   "action": "removeObject",
+   "name": "RearWallIntegrationParameters",
+   "label": "Задняя стенка — источники и текущие ссылки R92",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 3,
+   "order": 3,
+   "action": "removeObject",
+   "name": "R96SourceGeometry",
+   "label": "R96 exact frozen R95 roof and seven carriers (WORLD mm)",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 4,
+   "action": "removeObject",
+   "name": "R96IntegrationParameters",
+   "label": "R96 CURRENT UPPER pointer and pinned provenance",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 3,
+   "order": 5,
+   "action": "removeObject",
+   "name": "R97DraftParameters",
+   "label": "R97 прямоугольные профили — эскиз, БЕЗ ТОЛЩИНЫ",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 3,
+   "order": 6,
+   "action": "removeObject",
+   "name": "R97RearRectangularDrafts",
+   "label": "R97 4 плоских прямоугольника: только задние стойки 01/02",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 7,
+   "action": "removeObject",
+   "name": "R98Rear01InsideTangentPlane",
+   "label": "R99rear01trimmedtangentrectangle",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 8,
+   "action": "removeObject",
+   "name": "R100Rear01SideTangentRectangle",
+   "label": "R100 rear 01 side tangent rectangle",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 9,
+   "action": "removeObject",
+   "name": "R102Rear02InsideTangentRectangle",
+   "label": "R102Rear02InsideTangentRectangle",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 10,
+   "action": "removeObject",
+   "name": "R102Rear02SideTangentRectangle",
+   "label": "R102Rear02SideTangentRectangle",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 11,
+   "action": "removeObject",
+   "name": "R105Mid07GLevelToBossPlane",
+   "label": "Right07 middle G-level to boss plane",
+   "type": "Part::Mirroring"
+  },
+  {
+   "stage": 3,
+   "order": 12,
+   "action": "removeObject",
+   "name": "R105Mid07FrontInsideVerticalPlane",
+   "label": "Right07 middle front inside vertical plane",
+   "type": "Part::Mirroring"
+  },
+  {
+   "stage": 3,
+   "order": 13,
+   "action": "removeObject",
+   "name": "R104Mid05FrontInsideVerticalPlane",
+   "label": "R104Mid05FrontInsideVerticalPlane",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 14,
+   "action": "removeObject",
+   "name": "R104Mid05FrontVoidCut",
+   "label": "R104Mid05FrontVoidCut",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 15,
+   "action": "removeObject",
+   "name": "R104Mid05FrontPlaneStock",
+   "label": "R104Mid05FrontPlaneStock",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 16,
+   "action": "removeObject",
+   "name": "R105Mid07RearInsideVerticalPlane",
+   "label": "Right07 middle rear inside vertical plane",
+   "type": "Part::Mirroring"
+  },
+  {
+   "stage": 3,
+   "order": 17,
+   "action": "removeObject",
+   "name": "R104Mid05RearInsideVerticalPlane",
+   "label": "R104Mid05RearInsideVerticalPlane",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 18,
+   "action": "removeObject",
+   "name": "R103Mid05GLevelToBossPlane",
+   "label": "R103Mid05GLevelToBossPlane",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 19,
+   "action": "removeObject",
+   "name": "R103Mid05GLevelPlaneStock",
+   "label": "R103Mid05GLevelPlaneStock",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 20,
+   "action": "removeObject",
+   "name": "R103Mid05BossIntersectionTool",
+   "label": "R103Mid05BossIntersectionTool",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 21,
+   "action": "removeObject",
+   "name": "R104Mid05RearVoidCut",
+   "label": "R104Mid05RearVoidCut",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 22,
+   "action": "removeObject",
+   "name": "UpperWithSevenCarriersR96",
+   "label": "Верх со всеми 7 стойками — единый пластик, R96",
+   "type": "Part::MultiFuse"
+  },
+  {
+   "stage": 3,
+   "order": 23,
+   "action": "removeObject",
+   "name": "R96PostSource01",
+   "label": "R95 exact source R93CylinderBody01",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 24,
+   "action": "removeObject",
+   "name": "R96PostSource02",
+   "label": "R95 exact source R93CylinderBody02",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 25,
+   "action": "removeObject",
+   "name": "R96PostSource03",
+   "label": "R95 exact source R93CylinderBody03",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 26,
+   "action": "removeObject",
+   "name": "R96PostSource04",
+   "label": "R95 exact source R93CylinderBody04",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 27,
+   "action": "removeObject",
+   "name": "R96PostSource05",
+   "label": "R95 exact source R93CylinderBody05",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 28,
+   "action": "removeObject",
+   "name": "R96PostSource06",
+   "label": "R95 exact source R93CylinderBody06",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 29,
+   "action": "removeObject",
+   "name": "R96PostSource07",
+   "label": "R95 exact source R93CylinderBody07",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 30,
+   "action": "removeObject",
+   "name": "R104Mid05RearPlaneStock",
+   "label": "R104Mid05RearPlaneStock",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 31,
+   "action": "removeObject",
+   "name": "R124Front03SideParallelPlane",
+   "label": "R124 Front03 axis — side-wall-parallel YZ plane",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 32,
+   "action": "removeObject",
+   "name": "R124Front04SideParallelPlane",
+   "label": "R124 Front04 axis — side-wall-parallel YZ plane",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 33,
+   "action": "removeObject",
+   "name": "R124Front03_04FrontRearParallelPlane",
+   "label": "R124 Front03/04 axes — front/rear-wall-parallel XZ plane",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 34,
+   "action": "removeObject",
+   "name": "R125Central06MinusXAngleLine",
+   "label": "R125 central06 MinusX 30 deg construction line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 35,
+   "action": "removeObject",
+   "name": "R125Central06MinusXTrimmedTriangle",
+   "label": "R125 central06 MinusX trimmed triangle history",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 36,
+   "action": "removeObject",
+   "name": "R125Central06PlusXAngleLine",
+   "label": "R125 central06 PlusX 30 deg construction line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 37,
+   "action": "removeObject",
+   "name": "R125Central06PlusXTrimmedTriangle",
+   "label": "R125 central06 PlusX trimmed triangle history",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 38,
+   "action": "removeObject",
+   "name": "R125Central06PlusYAngleLine",
+   "label": "R125 central06 PlusY 30 deg construction line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 39,
+   "action": "removeObject",
+   "name": "R125Central06PlusYTrimmedTriangle",
+   "label": "R125 central06 PlusY trimmed triangle history",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 40,
+   "action": "removeObject",
+   "name": "R126Front03Construction",
+   "label": "R126 front 03: draft 2.4 mm bridge and three 30 deg webs",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 41,
+   "action": "removeObject",
+   "name": "R126Front03MinusXSlope30Reference",
+   "label": "R126Front03MinusX: true 30 deg outer-radius to actual-case line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 42,
+   "action": "removeObject",
+   "name": "R126Front03MinusXTrimmedTriangleReference",
+   "label": "R126Front03MinusX: outer-radius A-B-C construction triangle",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 43,
+   "action": "removeObject",
+   "name": "R126Front03PlusXSlope30Reference",
+   "label": "R126Front03PlusX: true 30 deg outer-radius to actual-case line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 44,
+   "action": "removeObject",
+   "name": "R126Front03PlusXTrimmedTriangleReference",
+   "label": "R126Front03PlusX: outer-radius A-B-C construction triangle",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 45,
+   "action": "removeObject",
+   "name": "R126Front03PlusYSlope30Reference",
+   "label": "R126Front03PlusY: true 30 deg outer-radius to actual-case line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 46,
+   "action": "removeObject",
+   "name": "R126Front03PlusYTrimmedTriangleReference",
+   "label": "R126Front03PlusY: outer-radius A-B-C construction triangle",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 47,
+   "action": "removeObject",
+   "name": "R126Front04Construction",
+   "label": "R126 front 04: draft 2.4 mm bridge and three 30 deg webs",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 48,
+   "action": "removeObject",
+   "name": "R126Front04MinusXSlope30Reference",
+   "label": "R126Front04MinusX: true 30 deg outer-radius to actual-case line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 49,
+   "action": "removeObject",
+   "name": "R126Front04MinusXTrimmedTriangleReference",
+   "label": "R126Front04MinusX: outer-radius A-B-C construction triangle",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 50,
+   "action": "removeObject",
+   "name": "R126Front04PlusXSlope30Reference",
+   "label": "R126Front04PlusX: true 30 deg outer-radius to actual-case line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 51,
+   "action": "removeObject",
+   "name": "R126Front04PlusXTrimmedTriangleReference",
+   "label": "R126Front04PlusX: outer-radius A-B-C construction triangle",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 52,
+   "action": "removeObject",
+   "name": "R126Front04PlusYSlope30Reference",
+   "label": "R126Front04PlusY: true 30 deg outer-radius to actual-case line",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 53,
+   "action": "removeObject",
+   "name": "R126Front04PlusYTrimmedTriangleReference",
+   "label": "R126Front04PlusY: outer-radius A-B-C construction triangle",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 54,
+   "action": "removeObject",
+   "name": "UpperOcc02",
+   "label": "R101CornerAddedFill001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 55,
+   "action": "removeObject",
+   "name": "R101CornerAddedFill",
+   "label": "R101CornerAddedFill",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 56,
+   "action": "removeObject",
+   "name": "R101OuterBossEnvelope",
+   "label": "R101OuterBossEnvelope",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 57,
+   "action": "removeObject",
+   "name": "R101LStock",
+   "label": "R101LStock",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 58,
+   "action": "removeObject",
+   "name": "R101CornerStock",
+   "label": "R101CornerStock",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 59,
+   "action": "removeObject",
+   "name": "R101SEExclusion",
+   "label": "R101SEExclusion",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 60,
+   "action": "removeObject",
+   "name": "UpperOcc03",
+   "label": "R102Rear02CornerAddedFill001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 61,
+   "action": "removeObject",
+   "name": "R102Rear02CornerAddedFill",
+   "label": "R102Rear02CornerAddedFill",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 62,
+   "action": "removeObject",
+   "name": "R102Rear02FullOuterBossEnvelope",
+   "label": "R102Rear02FullOuterBossEnvelope",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 63,
+   "action": "removeObject",
+   "name": "R102Rear02LStock",
+   "label": "R102Rear02LStock",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 64,
+   "action": "removeObject",
+   "name": "R102Rear02Stock",
+   "label": "R102Rear02Stock",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 65,
+   "action": "removeObject",
+   "name": "R102Rear02SWExclusion",
+   "label": "R102Rear02SWExclusion",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 66,
+   "action": "removeObject",
+   "name": "UpperOcc04",
+   "label": "РЕБРО V3 — передняя касательная 2.4 мм / над PCB 0.5 мм",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 67,
+   "action": "removeObject",
+   "name": "UpperOcc05",
+   "label": "R121Mid05 side pocket added fill001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 68,
+   "action": "removeObject",
+   "name": "R121Mid05SideAddedFill",
+   "label": "R121Mid05 side pocket added fill",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 69,
+   "action": "removeObject",
+   "name": "R121Mid05WithoutBoss",
+   "label": "R121Mid05 side stock excluding complete boss envelope",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 70,
+   "action": "removeObject",
+   "name": "R121Mid05RoofBoundedStock",
+   "label": "R121Mid05 roof-bounded side stock",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 71,
+   "action": "removeObject",
+   "name": "R121Mid05Profile",
+   "label": "R121Mid05 floor / R12.4 arc / 45-degree roof profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 72,
+   "action": "removeObject",
+   "name": "R121Mid05FullOuterBossEnvelope",
+   "label": "R121Mid05 full R4 boss protection envelope",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 73,
+   "action": "removeObject",
+   "name": "UpperOcc06",
+   "label": "R121Mid07 side pocket added fill001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 74,
+   "action": "removeObject",
+   "name": "R121Mid07SideAddedFill",
+   "label": "R121Mid07 side pocket added fill",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 75,
+   "action": "removeObject",
+   "name": "R121ParentMaterialTool",
+   "label": "R121 cached actual upper material (construction tool)",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 76,
+   "action": "removeObject",
+   "name": "R121Mid07WithoutBoss",
+   "label": "R121Mid07 side stock excluding complete boss envelope",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 77,
+   "action": "removeObject",
+   "name": "R121Mid07RoofBoundedStock",
+   "label": "R121Mid07 roof-bounded side stock",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 78,
+   "action": "removeObject",
+   "name": "R121Mid07Profile",
+   "label": "R121Mid07 floor / R12.4 arc / 45-degree roof profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 79,
+   "action": "removeObject",
+   "name": "R121Mid07FullOuterBossEnvelope",
+   "label": "R121Mid07 full R4 boss protection envelope",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 80,
+   "action": "removeObject",
+   "name": "UpperOcc07",
+   "label": "R125 central06 MinusX gusset 2.4 mm centered001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 81,
+   "action": "removeObject",
+   "name": "R125Central06MinusXGusset",
+   "label": "R125 central06 MinusX gusset 2.4 mm centered",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 82,
+   "action": "removeObject",
+   "name": "R125Central06MinusXStockProfile",
+   "label": "R125 central06 MinusX chord embedded stock profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 83,
+   "action": "removeObject",
+   "name": "UpperOcc08",
+   "label": "R125 central06 PlusX gusset 2.4 mm centered001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 84,
+   "action": "removeObject",
+   "name": "R125Central06PlusXGusset",
+   "label": "R125 central06 PlusX gusset 2.4 mm centered",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 85,
+   "action": "removeObject",
+   "name": "R125Central06PlusXStockProfile",
+   "label": "R125 central06 PlusX chord embedded stock profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 86,
+   "action": "removeObject",
+   "name": "R122Central06FrontRearParallelPlane",
+   "label": "Central boss 06 axis — parallel to front/rear walls (Y = -110.49 mm)",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 87,
+   "action": "removeObject",
+   "name": "UpperOcc09",
+   "label": "R125 central06 PlusY gusset 2.4 mm centered001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 88,
+   "action": "removeObject",
+   "name": "R125Central06PlusYGusset",
+   "label": "R125 central06 PlusY gusset 2.4 mm centered",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 89,
+   "action": "removeObject",
+   "name": "R125Central06PlusYStockProfile",
+   "label": "R125 central06 PlusY chord embedded stock profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 90,
+   "action": "removeObject",
+   "name": "R122Central06SideParallelPlane",
+   "label": "Central boss 06 axis — parallel to side walls (X = 139.7 mm)",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 91,
+   "action": "removeObject",
+   "name": "UpperOcc10",
+   "label": "R126Front03MinusX: separate 2.4 mm centered gusset (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 92,
+   "action": "removeObject",
+   "name": "R126Front03MinusXGusset",
+   "label": "R126Front03MinusX: separate 2.4 mm centered gusset (draft)",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 93,
+   "action": "removeObject",
+   "name": "R126Front03MinusXChordEmbeddedProfile",
+   "label": "R126Front03MinusX: finite-width chord root, -1.2 mm side profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 94,
+   "action": "removeObject",
+   "name": "UpperOcc11",
+   "label": "R126Front03PlusX: separate 2.4 mm centered gusset (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 95,
+   "action": "removeObject",
+   "name": "R126Front03PlusXGusset",
+   "label": "R126Front03PlusX: separate 2.4 mm centered gusset (draft)",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 96,
+   "action": "removeObject",
+   "name": "R126Front03PlusXChordEmbeddedProfile",
+   "label": "R126Front03PlusX: finite-width chord root, -1.2 mm side profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 97,
+   "action": "removeObject",
+   "name": "UpperOcc12",
+   "label": "R126Front03PlusY: separate 2.4 mm centered gusset (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 98,
+   "action": "removeObject",
+   "name": "R126Front03PlusYGusset",
+   "label": "R126Front03PlusY: separate 2.4 mm centered gusset (draft)",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 99,
+   "action": "removeObject",
+   "name": "R126Front03PlusYChordEmbeddedProfile",
+   "label": "R126Front03PlusY: finite-width chord root, -1.2 mm side profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 100,
+   "action": "removeObject",
+   "name": "UpperOcc13",
+   "label": "R126Front03: actual front wall to boss chord, 2.4 x 2.4 mm (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 101,
+   "action": "removeObject",
+   "name": "R126Front03ForwardWallBridge",
+   "label": "R126Front03: actual front wall to boss chord, 2.4 x 2.4 mm (draft)",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 102,
+   "action": "removeObject",
+   "name": "UpperOcc14",
+   "label": "R126Front04MinusX: separate 2.4 mm centered gusset (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 103,
+   "action": "removeObject",
+   "name": "R126Front04MinusXGusset",
+   "label": "R126Front04MinusX: separate 2.4 mm centered gusset (draft)",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 104,
+   "action": "removeObject",
+   "name": "R126Front04MinusXChordEmbeddedProfile",
+   "label": "R126Front04MinusX: finite-width chord root, -1.2 mm side profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 105,
+   "action": "removeObject",
+   "name": "UpperOcc15",
+   "label": "R126Front04PlusX: separate 2.4 mm centered gusset (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 106,
+   "action": "removeObject",
+   "name": "R126Front04PlusXGusset",
+   "label": "R126Front04PlusX: separate 2.4 mm centered gusset (draft)",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 107,
+   "action": "removeObject",
+   "name": "R126Front04PlusXChordEmbeddedProfile",
+   "label": "R126Front04PlusX: finite-width chord root, -1.2 mm side profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 108,
+   "action": "removeObject",
+   "name": "UpperOcc16",
+   "label": "R126Front04PlusY: separate 2.4 mm centered gusset (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 109,
+   "action": "removeObject",
+   "name": "R126Front04PlusYGusset",
+   "label": "R126Front04PlusY: separate 2.4 mm centered gusset (draft)",
+   "type": "Part::Extrusion"
+  },
+  {
+   "stage": 3,
+   "order": 110,
+   "action": "removeObject",
+   "name": "R126Front04PlusYChordEmbeddedProfile",
+   "label": "R126Front04PlusY: finite-width chord root, -1.2 mm side profile",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 111,
+   "action": "removeObject",
+   "name": "UpperOcc17",
+   "label": "R126Front04: actual front wall to boss chord, 2.4 x 2.4 mm (draft)001",
+   "type": "App::Link"
+  },
+  {
+   "stage": 3,
+   "order": 112,
+   "action": "removeObject",
+   "name": "R126Front04ForwardWallBridge",
+   "label": "R126Front04: actual front wall to boss chord, 2.4 x 2.4 mm (draft)",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 113,
+   "action": "removeObject",
+   "name": "R139BottomPlane",
+   "label": "V3 нижняя XY: Z+0,5 / над платой 0,5 мм",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 114,
+   "action": "removeObject",
+   "name": "R139CenterPlane",
+   "label": "V3 средняя XZ: Y−94,24",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 115,
+   "action": "removeObject",
+   "name": "R139Construction",
+   "label": "РЕБРО V3 — плоскости и редактируемые инструменты",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 116,
+   "action": "removeObject",
+   "name": "R139FrontPlane",
+   "label": "V3 передняя XZ / касательная: Y−95,44",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 117,
+   "action": "removeObject",
+   "name": "R139RearPlane",
+   "label": "V3 задняя XZ: Y−93,04",
+   "type": "Part::Plane"
+  },
+  {
+   "stage": 3,
+   "order": 118,
+   "action": "removeObject",
+   "name": "R139SideBossRibV3",
+   "label": "Ребро V3 — принятая рабочая версия",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 119,
+   "action": "removeObject",
+   "name": "R139Boss07Protection",
+   "label": "V3 защита наружного Ø8 и полостей втулки 07",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 120,
+   "action": "removeObject",
+   "name": "R139WithoutBoss05",
+   "label": "V3 с сохранением втулки05",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 121,
+   "action": "removeObject",
+   "name": "R139Boss05Protection",
+   "label": "V3 защита наружного Ø8 и полостей втулки 05",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 122,
+   "action": "removeObject",
+   "name": "R139RoofBoundedWeb",
+   "label": "V3 ребро до actual внутренней крыши",
+   "type": "Part::Cut"
+  },
+  {
+   "stage": 3,
+   "order": 123,
+   "action": "removeObject",
+   "name": "R139BoundedStock",
+   "label": "V3 исходный объём: 2,4 мм / низ Z+0,5",
+   "type": "Part::Box"
+  },
+  {
+   "stage": 3,
+   "order": 124,
+   "action": "removeObject",
+   "name": "R139InnerRoofCylinder",
+   "label": "V3 инструмент actual внутренней крыши R12,4",
+   "type": "Part::Cylinder"
+  },
+  {
+   "stage": 3,
+   "order": 125,
+   "action": "removeObject",
+   "name": "R139Parameters",
+   "label": "РЕБРО V3 — параметры / Р139 (DRAFT)",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 3,
+   "order": 126,
+   "action": "removeObject",
+   "name": "R96RoofSource",
+   "label": "R95 exact source R95UpperInnerPilotPockets",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 127,
+   "action": "removeObject",
+   "name": "UnionAll17",
+   "label": "Верх — Boolean-объединение 17 элементов",
+   "type": "Part::MultiFuse"
+  },
+  {
+   "stage": 3,
+   "order": 128,
+   "action": "removeObject",
+   "name": "SourceUpperOcc01",
+   "label": "Верх со всеми 7 стойками — единый пластик, R002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 129,
+   "action": "removeObject",
+   "name": "SourceUpperOcc02",
+   "label": "R101CornerAddedFill002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 130,
+   "action": "removeObject",
+   "name": "SourceUpperOcc03",
+   "label": "R102Rear02CornerAddedFill002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 131,
+   "action": "removeObject",
+   "name": "SourceUpperOcc04",
+   "label": "РЕБРО V3 — передняя касательная 2.4 мм / над PCB 0.5 мм001",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 132,
+   "action": "removeObject",
+   "name": "SourceUpperOcc05",
+   "label": "R121Mid05 side pocket added fill002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 133,
+   "action": "removeObject",
+   "name": "SourceUpperOcc06",
+   "label": "R121Mid07 side pocket added fill002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 134,
+   "action": "removeObject",
+   "name": "SourceUpperOcc07",
+   "label": "R125 central06 MinusX gusset 2.4 mm centered002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 135,
+   "action": "removeObject",
+   "name": "SourceUpperOcc08",
+   "label": "R125 central06 PlusX gusset 2.4 mm centered002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 136,
+   "action": "removeObject",
+   "name": "SourceUpperOcc09",
+   "label": "R125 central06 PlusY gusset 2.4 mm centered002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 137,
+   "action": "removeObject",
+   "name": "SourceUpperOcc10",
+   "label": "R126Front03MinusX: separate 2.4 mm centered gusset (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 138,
+   "action": "removeObject",
+   "name": "SourceUpperOcc11",
+   "label": "R126Front03PlusX: separate 2.4 mm centered gusset (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 139,
+   "action": "removeObject",
+   "name": "SourceUpperOcc12",
+   "label": "R126Front03PlusY: separate 2.4 mm centered gusset (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 140,
+   "action": "removeObject",
+   "name": "SourceUpperOcc13",
+   "label": "R126Front03: actual front wall to boss chord, 2.4 x 2.4 mm (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 141,
+   "action": "removeObject",
+   "name": "SourceUpperOcc14",
+   "label": "R126Front04MinusX: separate 2.4 mm centered gusset (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 142,
+   "action": "removeObject",
+   "name": "SourceUpperOcc15",
+   "label": "R126Front04PlusX: separate 2.4 mm centered gusset (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 143,
+   "action": "removeObject",
+   "name": "SourceUpperOcc16",
+   "label": "R126Front04PlusY: separate 2.4 mm centered gusset (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 144,
+   "action": "removeObject",
+   "name": "SourceUpperOcc17",
+   "label": "R126Front04: actual front wall to boss chord, 2.4 x 2.4 mm (draft)002",
+   "type": "Part::Feature"
+  },
+  {
+   "stage": 3,
+   "order": 145,
+   "action": "removeObject",
+   "name": "UpperRetiredOccurrences",
+   "label": "Прежние отдельные элементы верха",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 146,
+   "action": "removeObject",
+   "name": "UpperNativeUnion",
+   "label": "Объединённый верх — редактируемое построение",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 147,
+   "action": "removeObject",
+   "name": "UpperUnionConstituents",
+   "label": "17 исходных форм в координатах сборки",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 148,
+   "action": "removeObject",
+   "name": "CoverDefinitions",
+   "label": "Крышечка — исходники",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 3,
+   "order": 149,
+   "action": "removeObject",
+   "name": "UpperDefinitions",
+   "label": "Верх — исходники и построения",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 4,
+   "action": "move_to_top_level",
+   "name": "ElectronicsDefinitions",
+   "label": "Плата и клавиши — исходники",
+   "from_group": "ProjectDefinitions"
+  },
+  {
+   "stage": 4,
+   "action": "move_to_top_level",
+   "name": "ProjectReferenceData",
+   "label": "Сведения о проекте",
+   "from_group": "ProjectDefinitions"
+  },
+  {
+   "stage": 4,
+   "order": 1,
+   "action": "removeObject",
+   "name": "ProjectDefinitions",
+   "label": "Исходники и история построений",
+   "type": "App::DocumentObjectGroup"
+  },
+  {
+   "stage": 5,
+   "order": 1,
+   "action": "removeObject",
+   "name": "Simulation_big_carries_small",
+   "label": "Simulation_big_carries_small",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 2,
+   "action": "removeObject",
+   "name": "Motion_big_carries_small_CaseBigRevoluteX",
+   "label": "CaseBigRevoluteX (Angular)",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 3,
+   "action": "removeObject",
+   "name": "Motion_big_carries_small_BigSmallRevoluteX",
+   "label": "BigSmallRevoluteX (Angular)",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 4,
+   "action": "removeObject",
+   "name": "Simulation_small_only",
+   "label": "Simulation_small_only",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 5,
+   "action": "removeObject",
+   "name": "Motion_small_only_CaseBigRevoluteX",
+   "label": "CaseBigRevoluteX (Angular)001",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 6,
+   "action": "removeObject",
+   "name": "Motion_small_only_BigSmallRevoluteX",
+   "label": "BigSmallRevoluteX (Angular)001",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 7,
+   "action": "removeObject",
+   "name": "Simulation_right_big_carries_small",
+   "label": "Simulation_right_big_carries_small",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 8,
+   "action": "removeObject",
+   "name": "Motion_right_big_carries_small_RightCaseBigRevoluteX",
+   "label": "RightCaseBigRevoluteX (Angular)",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 9,
+   "action": "removeObject",
+   "name": "Motion_right_big_carries_small_RightBigSmallRevoluteX",
+   "label": "RightBigSmallRevoluteX (Angular)",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 10,
+   "action": "removeObject",
+   "name": "Simulation_right_small_only",
+   "label": "Simulation_right_small_only",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 11,
+   "action": "removeObject",
+   "name": "Motion_right_small_only_RightCaseBigRevoluteX",
+   "label": "Правая: CaseBigRevoluteX (Angular)001",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "order": 12,
+   "action": "removeObject",
+   "name": "Motion_right_small_only_RightBigSmallRevoluteX",
+   "label": "Правая: BigSmallRevoluteX (Angular)001",
+   "type": "App::FeaturePython"
+  },
+  {
+   "stage": 5,
+   "action": "create",
+   "name": "Simulation",
+   "type": "App::FeaturePython",
+   "proxy": null,
+   "parent": "Simulations",
+   "props": {
+    "Label": "Ножки — совместное раскрытие",
+    "aTimeStart": 0.0,
+    "bTimeEnd": 14.0,
+    "cTimeStepOutput": 0.03333333333333333,
+    "fGlobalErrorTolerance": 1e-06,
+    "jFramesPerSecond": 30,
+    "Group": [
+     "Motion",
+     "Motion001",
+     "Motion002",
+     "Motion003"
+    ]
+   }
+  },
+  {
+   "stage": 5,
+   "action": "create",
+   "name": "Motion",
+   "type": "App::FeaturePython",
+   "proxy": null,
+   "parent": "Simulation",
+   "props": {
+    "Label": "CaseBigRevoluteX (Angular)",
+    "MotionType": "Angular",
+    "Joint": "CaseBigRevoluteX",
+    "Formula": "2.0410350821492869*(3*(((((time/7))^2+1e-10)^0.5-(((time/7)-1)^2+1e-10)^0.5+1)/2)^2-2*(((((time/7))^2+1e-10)^0.5-(((time/7)-1)^2+1e-10)^0.5+1)/2)^3)"
+   }
+  },
+  {
+   "stage": 5,
+   "action": "create",
+   "name": "Motion001",
+   "type": "App::FeaturePython",
+   "proxy": null,
+   "parent": "Simulation",
+   "props": {
+    "Label": "RightCaseBigRevoluteX (Angular)",
+    "MotionType": "Angular",
+    "Joint": "RightCaseBigRevoluteX",
+    "Formula": "2.0410350821492869*(3*(((((time/7))^2+1e-10)^0.5-(((time/7)-1)^2+1e-10)^0.5+1)/2)^2-2*(((((time/7))^2+1e-10)^0.5-(((time/7)-1)^2+1e-10)^0.5+1)/2)^3)"
+   }
+  },
+  {
+   "stage": 5,
+   "action": "create",
+   "name": "Motion002",
+   "type": "App::FeaturePython",
+   "proxy": null,
+   "parent": "Simulation",
+   "props": {
+    "Label": "BigSmallRevoluteX (Angular)",
+    "MotionType": "Angular",
+    "Joint": "BigSmallRevoluteX",
+    "Formula": "2.2479139618258275*(3*((((((time-7)/7))^2+1e-10)^0.5-((((time-7)/7)-1)^2+1e-10)^0.5+1)/2)^2-2*((((((time-7)/7))^2+1e-10)^0.5-((((time-7)/7)-1)^2+1e-10)^0.5+1)/2)^3)"
+   }
+  },
+  {
+   "stage": 5,
+   "action": "create",
+   "name": "Motion003",
+   "type": "App::FeaturePython",
+   "proxy": null,
+   "parent": "Simulation",
+   "props": {
+    "Label": "RightBigSmallRevoluteX (Angular)",
+    "MotionType": "Angular",
+    "Joint": "RightBigSmallRevoluteX",
+    "Formula": "2.2479139618258275*(3*((((((time-7)/7))^2+1e-10)^0.5-((((time-7)/7)-1)^2+1e-10)^0.5+1)/2)^2-2*((((((time-7)/7))^2+1e-10)^0.5-((((time-7)/7)-1)^2+1e-10)^0.5+1)/2)^3)"
+   }
+  }
+ ]
+}
