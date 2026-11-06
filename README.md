@@ -2,7 +2,13 @@
 
 A 3D model of the [Radio-86RK](https://github.com/BarabashkaD/radio-86rk) as an
 assembled machine — the populated board, its 67 keyswitches, the keycaps on top
-of them, and the envelope the enclosure will be designed against.
+of them, the envelope the enclosure is designed against — and the enclosure
+itself.
+
+![The Radio-86RK in its case, folding legs open](case/renders/case-v6-legs-open-34.png)
+
+*Case v6, accepted 2026-11-06: top, bottom, the removable access cover and two
+pairs of folding legs, shown open. See "The enclosure" below.*
 
 ![The assembled Radio-86RK](model/renders/computer-axonometric.png)
 
@@ -22,6 +28,39 @@ This one adds everything above the PCB:
 | **A gate that checks all of it** | Eleven checks, from "does the board still have 67 switches" to "do the caps sit where they should". |
 
 ![Top view](model/renders/computer-top.png)
+
+## The enclosure
+
+The current accepted version is named in `case/CURRENT.path`; today that is
+`case/accepted/2026-11-06-clean/Radio86rk-FULL-ACCEPTED-2026-11-06-CLEAN.FCStd`
+(20 MB, 415 objects, no construction history). It holds the whole machine in
+its case:
+
+| Object | What it is |
+|---|---|
+| `Case` | the bottom |
+| `UpperKeyboardReinforcedFinal` | the top, with the keyboard opening and eight latches |
+| `CurrentAccessCover45` | the removable access cover |
+| `Big`, `RightBig` / `Small`, `RightSmall` | two pairs of folding legs at the rear |
+| board, components, 67 keycaps | the same computer model as `model/` |
+
+**The legs are an Assembly animation**, "Ножки — совместное раскрытие": over
+0–7 s both big legs swing out to 117°, over 7–14 s both small legs follow to
+11.85°, where they stop on the edge of their pocket in the bottom. Play it in
+the FreeCAD GUI. The file itself stores the legs folded; the picture at the top
+is the last frame of that animation, viewed front-left from above.
+
+Accepted versions are read-only (`MANIFEST.sha256`); a new one is accepted only
+by the owner's decision. State, open questions and the decision log are in
+`case/PROJECT-STATE.md`; the working rules for the case — FreeCAD launch,
+tolerances, collision scope, the rule that no absolute paths or e-mails go into
+the repository, including inside FCStd files — are in `AGENTS.md`. Both are in
+Russian. The case has not been printed yet.
+
+Exported parts (BREP, STL, STEP) are not tracked. They are derived from the
+accepted FCStd on demand into `.build/parts/<sha12>/` by
+`tools/fcq tools/extract_parts.py`, with a manifest that `tools/parts_check.py`
+checks before any use.
 
 ## Just looking at it
 
@@ -173,6 +212,8 @@ tracked, because a checkout without it cannot do most of what this repo is for.
 | `model/reference-placement.csv` | 11 KB | An independent reading of the board's switch positions, frozen at board revision `4f4c1b5` |
 | `model/reference-caps.tsv` | 3 KB | An independent reading of where the caps land, frozen at the same revision. Two checks compare this build against these two files |
 | `model/renders/computer-*.png` | 350 KB | The visual sign-off record, 1600×1100. They show the whole machine |
+| `case/accepted/<date>-<name>/` | 20 MB | An accepted enclosure version: the FCStd, its acceptance record, manifest and evidence. Lightened (no construction history); anything over 50 MB stays out of git |
+| `case/renders/case-v6-legs-open-34.png` | 270 KB | The case with its legs open, 2400×1600, a screenshot of the FreeCAD view |
 
 Not tracked, in `.build/` — regenerated in about a second:
 `caps/caps.step`, 8.3 MB of placed caps derived entirely from `model/` plus
@@ -241,12 +282,10 @@ to retire both cross-checks deliberately — which would drop the gate from
 eleven checks to nine and lose the only cross-validation of where the caps
 physically land.
 
-**Nothing consumes the envelope yet.** `model/envelope.step` is the interface,
-and the enclosure it exists for has not been designed. That is the actual next
-piece of work; everything above is housekeeping in front of it. A cold audit
-built a trial plate against the envelope and it worked, so the interface is
-known to be usable -- but only for the keyboard field. See "Designing a case
-against the envelope".
+**The enclosure is designed, not yet printed.** Case v6 is accepted in CAD (see
+"The enclosure"); printing is still open — the print project, speeds and the
+latch layer orientation are listed in `case/PROJECT-STATE.md`, together with
+the known small contacts the owner chose to leave as they are.
 
 ## Provenance and licensing
 
