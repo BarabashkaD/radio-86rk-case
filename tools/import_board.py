@@ -138,6 +138,12 @@ def capture_report(path=None):
         raise RuntimeError("no Report view widget -- enable it under "
                            "View > Panels > Report view")
     text = widget.toPlainText()
+    # ksu logs absolute file paths; the log is tracked in a public repository,
+    # so the home directory is written as "~" (the pre-commit guard refuses it
+    # otherwise). Check F reads only counts and error markers, not paths.
+    home = os.path.expanduser("~")
+    if home not in ("", "~", "/"):
+        text = text.replace(home, "~")
     path = path or os.path.join(MODEL, "import_log.txt")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as handle:
