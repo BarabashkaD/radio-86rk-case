@@ -1,10 +1,29 @@
 #!/bin/sh
-# Block personal data (home paths, e-mails) in staged files, including inside FCStd/3mf archives.
-# Enable once per clone:  git config core.hooksPath .githooks
-root=$(git rev-parse --show-toplevel)
-py=python3
-if [ -f "$root/tools/local.env" ]; then
-  CAD_PY=$(sed -n 's/^CAD_PY=//p' "$root/tools/local.env")
-  [ -x "$CAD_PY" ] && py=$CAD_PY
+# Block personal data (home paths, e-mail addresses) in staged files, including inside zip-based
+# files (FCStd, 3mf, docx, ...) and PNG/JPEG metadata. Template from the public-repo-guard skill
+# (plugin dv-public-repo-guard 0.1.0, dv-claude-dev-market); tools/check_private.py is copied verbatim.
+# Project additions, marked below: the interpreter from tools/local.env (CAD_PY) and the <архив> hint.
+#
+# Install: copy to .githooks/pre-commit (executable) and check_private.py to tools/, then once per
+# clone:  git config core.hooksPath .githooks
+#
+# Optional environment overrides:
+#   CHECK_PRIVATE_PYTHON  interpreter to run the guard (default: python3 on PATH)
+#   CHECK_PRIVATE_HINT    fix hint printed with the findings
+# A project with its own interpreter can read it from an untracked local file, after `root=`:
+#   [ -f "$root/tools/local.env" ] && CHECK_PRIVATE_PYTHON=$(sed -n 's/^MY_PY=//p' "$root/tools/local.env")
+# The hook fails closed: if the interpreter or the script is missing, the commit is refused.
+root=$(git rev-parse --show-toplevel) || exit 1
+script="$root/tools/check_private.py"
+# project: interpreter of this machine, if configured
+if [ -z "${CHECK_PRIVATE_PYTHON:-}" ] && [ -f "$root/tools/local.env" ]; then
+  CHECK_PRIVATE_PYTHON=$(sed -n 's/^CAD_PY=//p' "$root/tools/local.env")
 fi
-exec "$py" -I "$root/tools/check_private.py" --staged
+# project: paths outside the repository are written as <архив>/... (see AGENTS.md)
+export CHECK_PRIVATE_HINT="${CHECK_PRIVATE_HINT:-Use paths relative to the repository root or <архив>/…; remove e-mail addresses.}"
+py=${CHECK_PRIVATE_PYTHON:-python3}
+if [ ! -f "$script" ]; then
+  echo "pre-commit: $script not found; commit refused" >&2
+  exit 1
+fi
+exec "$py" -I "$script" --staged
