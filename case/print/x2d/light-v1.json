@@ -1,0 +1,60 @@
+{
+  "version": "x2d-light-v1.0.0",
+  "source": "case/accepted/2026-11-06-clean/Radio86rk-FULL-ACCEPTED-2026-11-06-CLEAN.FCStd",
+  "source_sha256": "97dce455df88f7f6d51b70b9b803a53c2e82efca5e5afe93dedc5f95a970d306",
+  "freecad": "1.1.4",
+  "occ": "7.8.1",
+  "linear_mm": 0.015,
+  "relative": false,
+  "parts": [
+    {
+      "object": "UpperOcc01",
+      "file": "part-upper.stl",
+      "angular_rad": 0.14,
+      "facets": 1133212,
+      "sha256": "807d4d8fbbf4e4f9987bfd954e518b71fe0cf7239a01eec5e8e5e1e1738f9f8f"
+    },
+    {
+      "object": "Case",
+      "file": "part-lower.stl",
+      "angular_rad": 0.16,
+      "facets": 161682,
+      "sha256": "987aadc56fd7c1c3b3c110aca923a136ae6b3f0c4903822d490e84121d33d4e8"
+    },
+    {
+      "object": "UpperOcc18",
+      "file": "part-cover.stl",
+      "angular_rad": 0.165,
+      "facets": 48812,
+      "sha256": "b4a92309b8fac8ecbe517786e0dc6a40f61094595d57add1a3118851021086d1"
+    },
+    {
+      "object": "Big",
+      "file": "part-leg-big-left.stl",
+      "angular_rad": 0.14,
+      "facets": 71878,
+      "sha256": "3c77edc1b11838b0396e8be113695286fb92fc9d6160d52a142b9e0d046767f6"
+    },
+    {
+      "object": "RightBig",
+      "file": "part-leg-big-right.stl",
+      "angular_rad": 0.14,
+      "facets": 71966,
+      "sha256": "6e426f4010c84d6603f23857b4e4b37756da16c7b1921c19e1c90f28c07506f7"
+    },
+    {
+      "object": "Small",
+      "file": "part-leg-small-left.stl",
+      "angular_rad": 0.14,
+      "facets": 88514,
+      "sha256": "a33e497028846c807a994e3274eedcb8c78148490c7fce6a3e7a239cc0013cc1"
+    },
+    {
+      "object": "RightSmall",
+      "file": "part-leg-small-right.stl",
+      "angular_rad": 0.14,
+      "facets": 88482,
+      "sha256": "6567fe2cb41bcf0d778befbc5e420a2ece99b18e3e73273f74932313746465c7"
+    }
+  ]
+}
