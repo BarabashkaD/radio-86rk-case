@@ -62,6 +62,16 @@ accepted FCStd on demand into `.build/parts/<sha12>/` by
 `tools/fcq tools/extract_parts.py`, with a manifest that `tools/parts_check.py`
 checks before any use.
 
+The [X2D light STL release](https://github.com/BarabashkaD/radio-86rk-case/releases/tag/x2d-light-v1.0.0)
+contains seven individual enclosure parts in millimetres and a ZIP with the complete set.
+To reproduce version 1.0.0 with FreeCAD 1.1.4 and OpenCASCADE 7.8.1, run
+`tools/fcq tools/export_x2d_light.py` from the repository root after configuring
+`tools/local.env`. The command checks each STL against its released SHA-256 and
+writes the set to `.build/x2d-light/x2d-light-v1.0.0/`. A successful run reports
+`"ok": true` and `"parts": 7` on its `RESULT` line.
+See the [per-part export settings](case/print/x2d/light-v1.json) and
+[mesh and slicing measurements](case/print/x2d/X2D-mesh-intersections.md).
+
 ## Just looking at it
 
 Open `model/radio86rk-assembly.FCStd` in FreeCAD 1.1.1. That is the whole
